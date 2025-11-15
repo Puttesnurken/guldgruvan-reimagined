@@ -66,6 +66,12 @@ const Navigation = () => {
               Om Oss
             </button>
             <button
+              onClick={() => scrollToSection("book-event")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Boka Event
+            </button>
+            <button
               onClick={() => scrollToSection("find-us")}
               className="text-foreground hover:text-primary transition-colors"
             >
@@ -123,6 +129,12 @@ const Navigation = () => {
                 className="text-foreground hover:text-primary transition-colors text-left py-2"
               >
                 Om Oss
+              </button>
+              <button
+                onClick={() => scrollToSection("book-event")}
+                className="text-foreground hover:text-primary transition-colors text-left py-2"
+              >
+                Boka Event
               </button>
               <button
                 onClick={() => scrollToSection("find-us")}
