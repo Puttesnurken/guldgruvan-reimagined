@@ -4,7 +4,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
-            <span className="bg-gold-gradient bg-clip-text text-transparent">
+            <span className="bg-bw-gradient bg-clip-text text-transparent">
               Om Guldgruvan
             </span>
           </h2>

@@ -1,21 +1,24 @@
 import ComedianCard from "./ComedianCard";
+import simonGardenfors from "@/assets/simon-gardenfors.png";
+import wagrell from "@/assets/wagrell.png";
+import chippen from "@/assets/chippen.png";
 
 const Comedians = () => {
   const comedians = [
     {
       name: "Simon Gärdenfors",
       description: "Trots ämnen som sex och knark har Gärdenfors beskrivits som \"gullig\". Det är till viss del sant. Han ligger bakom succér som humortrion \"Specialisterna\" och låten \"Knulla barn\". Han samlar på olika godisförpackningar och etiketter och har på sin fritid blivit en av sveriges största underground-komiker.",
-      image: "https://guldgruvan.com/wp-content/uploads/2025/02/simon-g2-1.png"
+      image: simonGardenfors
     },
     {
       name: "Johanna Hurtig Wagrell",
       description: "Johanna Wagrell! Mest känd för sina poddar \"Vad blir det för mord?\" och \"Kafferepet\" som hon driver tillsammans med Ellinor Svensson respektive Albin Olsson och Nisse Hallberg. Utöver det är hon en av sveriges absolut vassaste komiker.",
-      image: "https://guldgruvan.com/wp-content/uploads/2025/02/wagrell.png"
+      image: wagrell
     },
     {
       name: "Simon Svensson",
       description: "Simon Svensson är på många sätt humorsveriges Jay-Z. Han började som komiker men har på senare år genom imperiet Under Produktion gjort sig själv känd som podmogul och direktör. Han är också en av grundarna till sveriges bästa klubb Under Jord.",
-      image: "https://guldgruvan.com/wp-content/uploads/2025/02/chippen2.png"
+      image: chippen
     }
   ];
 
@@ -24,7 +27,7 @@ const Comedians = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gold-gradient bg-clip-text text-transparent">
+            <span className="bg-bw-gradient bg-clip-text text-transparent">
               Hemlig Lineup
             </span>
           </h2>

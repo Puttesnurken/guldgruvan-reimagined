@@ -54,7 +54,7 @@ const Footer = () => {
               href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gold-gradient text-primary-foreground font-semibold px-6 py-2 rounded-lg hover:shadow-glow transition-all"
+              className="inline-block bg-bw-gradient text-primary-foreground font-semibold px-6 py-2 rounded-lg hover:shadow-glow transition-all"
             >
               Köp via Ticketmaster
             </a>

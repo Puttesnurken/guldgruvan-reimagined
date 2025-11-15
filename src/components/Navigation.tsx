@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,9 +34,9 @@ const Navigation = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold tracking-wider text-primary hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity"
           >
-            GULDGRUVAN
+            <img src={logo} alt="Guldgruvan" className="h-10 md:h-12" />
           </button>
 
           {/* Desktop Menu */}
@@ -66,7 +67,7 @@ const Navigation = () => {
             </button>
             <Button
               asChild
-              className="bg-gold-gradient text-primary-foreground font-semibold hover:shadow-glow transition-all"
+              className="bg-bw-gradient text-primary-foreground font-semibold hover:shadow-glow transition-all"
             >
               <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                 Biljetter
@@ -113,7 +114,7 @@ const Navigation = () => {
               </button>
               <Button
                 asChild
-                className="bg-gold-gradient text-primary-foreground font-semibold hover:shadow-glow transition-all w-full"
+                className="bg-bw-gradient text-primary-foreground font-semibold hover:shadow-glow transition-all w-full"
               >
                 <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                   Biljetter
