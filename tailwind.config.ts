@@ -54,6 +54,9 @@ export default {
       boxShadow: {
         'glow': 'var(--shadow-glow)',
         'card': 'var(--shadow-card)',
+        'elevation-low': 'var(--shadow-elevation-low)',
+        'elevation-medium': 'var(--shadow-elevation-medium)',
+        'elevation-high': 'var(--shadow-elevation-high)',
       },
       transitionProperty: {
         'smooth': 'var(--transition-smooth)',
@@ -100,6 +103,26 @@ export default {
             transform: "translateY(0)"
           }
         },
+        "slide-in-left": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-50px)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)"
+          }
+        },
+        "scale-in": {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.9)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1)"
+          }
+        },
         "glow-pulse": {
           "0%, 100%": {
             boxShadow: "0 0 20px hsla(0, 0%, 100%, 0.3)"
@@ -115,6 +138,8 @@ export default {
         "fade-in": "fade-in 0.6s ease-out forwards",
         "fade-in-up": "fade-in-up 0.8s ease-out forwards",
         "glow-pulse": "glow-pulse 3s ease-in-out infinite",
+        "slide-in-left": "slide-in-left 0.8s ease-out forwards",
+        "scale-in": "scale-in 0.6s ease-out forwards",
       },
     },
   },
