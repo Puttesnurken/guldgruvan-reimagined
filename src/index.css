@@ -41,9 +41,12 @@ All colors MUST be HSL.
     /* BW gradient */
     --bw-gradient: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 85%) 100%);
     
-    /* Shadows */
+    /* Enhanced shadows for depth */
     --shadow-glow: 0 0 30px hsla(0, 0%, 100%, 0.3);
     --shadow-card: 0 10px 40px hsla(0, 0%, 0%, 0.5);
+    --shadow-elevation-low: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-elevation-medium: 0 4px 6px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.5);
+    --shadow-elevation-high: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.6);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

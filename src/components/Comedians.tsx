@@ -2,6 +2,21 @@ import ComedianCard from "./ComedianCard";
 import simonGardenfors from "@/assets/simon-gardenfors.png";
 import wagrell from "@/assets/wagrell.png";
 import chippen from "@/assets/chippen.png";
+import davidAsp from "@/assets/david-asp.jpg";
+import robinBerglund from "@/assets/robin-berglund.jpg";
+import michelSanchez from "@/assets/michel-sanchez.jpg";
+import emilArvas from "@/assets/emil-arvas.jpg";
+import brannePavlovic from "@/assets/branne-pavlovic.jpg";
+import atoKarlsson from "@/assets/ato-karlsson.jpg";
+import lovisaHenriksson from "@/assets/lovisa-henriksson.jpg";
+import albinOlsson from "@/assets/albin-olsson.jpg";
+import luddeSamuelsson from "@/assets/ludde-samuelsson.jpg";
+import christerSvensson from "@/assets/christer-svensson.jpg";
+import axelTidelius from "@/assets/axel-tidelius.jpg";
+import fredrikAndersson from "@/assets/fredrik-andersson.jpg";
+import ellinorSvensson from "@/assets/ellinor-svensson.jpg";
+import feliciaTomala from "@/assets/felicia-tomala.jpg";
+import elviraGullberg from "@/assets/elvira-gullberg.jpg";
 
 const Comedians = () => {
   const comedians = [
@@ -19,13 +34,91 @@ const Comedians = () => {
       name: "Simon Svensson",
       description: "Simon Svensson är på många sätt humorsveriges Jay-Z. Han började som komiker men har på senare år genom imperiet Under Produktion gjort sig själv känd som podmogul och direktör. Han är också en av grundarna till sveriges bästa klubb Under Jord.",
       image: chippen
+    },
+    {
+      name: "David Asp",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: davidAsp
+    },
+    {
+      name: "Robin Berglund",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: robinBerglund
+    },
+    {
+      name: "Michel Sanchez",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: michelSanchez
+    },
+    {
+      name: "Emil Arvas",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: emilArvas
+    },
+    {
+      name: "Branne Pavlovic",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: brannePavlovic
+    },
+    {
+      name: "Ato Karlsson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: atoKarlsson
+    },
+    {
+      name: "Lovisa Henriksson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: lovisaHenriksson
+    },
+    {
+      name: "Albin Olsson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: albinOlsson
+    },
+    {
+      name: "Ludde Samuelsson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: luddeSamuelsson
+    },
+    {
+      name: "Christer Svensson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: christerSvensson
+    },
+    {
+      name: "Axel Tidelius",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: axelTidelius
+    },
+    {
+      name: "Fredrik Andersson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: fredrikAndersson
+    },
+    {
+      name: "Ellinor Svensson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: ellinorSvensson
+    },
+    {
+      name: "Felicia Tomala",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: feliciaTomala
+    },
+    {
+      name: "Elvira Gullberg",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: elviraGullberg
     }
   ];
 
   return (
-    <section id="comedians" className="py-24 bg-secondary/30">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+    <section id="comedians" className="py-24 bg-secondary/30 relative overflow-hidden">
+      {/* Decorative background elements */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/50 to-transparent pointer-events-none" />
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-16 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="bg-bw-gradient bg-clip-text text-transparent">
               Hemlig Lineup
@@ -36,13 +129,13 @@ const Comedians = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {comedians.map((comedian, index) => (
             <div
               key={comedian.name}
               className="animate-fade-in-up opacity-0"
               style={{ 
-                animationDelay: `${index * 0.2}s`,
+                animationDelay: `${0.2 + (index * 0.05)}s`,
                 animationFillMode: "forwards"
               }}
             >
