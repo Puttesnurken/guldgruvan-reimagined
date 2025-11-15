@@ -48,6 +48,12 @@ const Navigation = () => {
               Hem
             </button>
             <button
+              onClick={() => scrollToSection("shows")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Shower
+            </button>
+            <button
               onClick={() => scrollToSection("comedians")}
               className="text-foreground hover:text-primary transition-colors"
             >
@@ -58,6 +64,12 @@ const Navigation = () => {
               className="text-foreground hover:text-primary transition-colors"
             >
               Om Oss
+            </button>
+            <button
+              onClick={() => scrollToSection("find-us")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Hitta Oss
             </button>
             <button
               onClick={() => scrollToSection("faq")}
@@ -95,6 +107,12 @@ const Navigation = () => {
                 Hem
               </button>
               <button
+                onClick={() => scrollToSection("shows")}
+                className="text-foreground hover:text-primary transition-colors text-left py-2"
+              >
+                Shower
+              </button>
+              <button
                 onClick={() => scrollToSection("comedians")}
                 className="text-foreground hover:text-primary transition-colors text-left py-2"
               >
@@ -105,6 +123,12 @@ const Navigation = () => {
                 className="text-foreground hover:text-primary transition-colors text-left py-2"
               >
                 Om Oss
+              </button>
+              <button
+                onClick={() => scrollToSection("find-us")}
+                className="text-foreground hover:text-primary transition-colors text-left py-2"
+              >
+                Hitta Oss
               </button>
               <button
                 onClick={() => scrollToSection("faq")}
