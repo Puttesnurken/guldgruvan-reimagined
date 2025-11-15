@@ -9,15 +9,15 @@ const Hero = () => {
         <img
           src={heroStage}
           alt="Guldgruvan comedy club stage"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/60 to-background"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in">
-          <span className="bg-gold-gradient bg-clip-text text-transparent">
+          <span className="bg-bw-gradient bg-clip-text text-transparent">
             GULDGRUVAN
           </span>
         </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
           <Button
             asChild
             size="lg"
-            className="bg-gold-gradient text-primary-foreground font-bold text-lg px-8 hover:shadow-glow transition-all animate-glow-pulse"
+            className="bg-bw-gradient text-primary-foreground font-bold text-lg px-8 hover:shadow-glow transition-all animate-glow-pulse"
           >
             <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
               Köp Biljetter
