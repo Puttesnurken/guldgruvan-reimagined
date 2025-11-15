@@ -59,7 +59,7 @@ const UpcomingShows = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+        <div className="flex flex-col gap-6 max-w-4xl mx-auto">
           {shows.map((show, index) => (
             <div
               key={index}

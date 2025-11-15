@@ -1,4 +1,7 @@
+import { useState } from "react";
 import ComedianCard from "./ComedianCard";
+import { Button } from "./ui/button";
+import { ChevronDown, ChevronUp } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors.png";
 import wagrell from "@/assets/wagrell.png";
 import chippen from "@/assets/chippen.png";
@@ -19,6 +22,7 @@ import feliciaTomala from "@/assets/felicia-tomala.jpg";
 import elviraGullberg from "@/assets/elvira-gullberg.jpg";
 
 const Comedians = () => {
+  const [showAll, setShowAll] = useState(false);
   const comedians = [
     {
       name: "Simon Gärdenfors",
@@ -130,7 +134,7 @@ const Comedians = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {comedians.map((comedian, index) => (
+          {comedians.slice(0, showAll ? comedians.length : 10).map((comedian, index) => (
             <div
               key={comedian.name}
               className="animate-fade-in-up opacity-0"
@@ -143,6 +147,28 @@ const Comedians = () => {
             </div>
           ))}
         </div>
+
+        {/* Show More/Less Button */}
+        {comedians.length > 10 && (
+          <div className="mt-12 text-center">
+            <Button
+              onClick={() => setShowAll(!showAll)}
+              className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 hover:shadow-glow px-8 py-6 text-lg"
+            >
+              {showAll ? (
+                <>
+                  <ChevronUp className="w-5 h-5 mr-2" />
+                  Visa färre
+                </>
+              ) : (
+                <>
+                  <ChevronDown className="w-5 h-5 mr-2" />
+                  Visa fler komiker ({comedians.length - 10} till)
+                </>
+              )}
+            </Button>
+          </div>
+        )}
       </div>
     </section>
   );
