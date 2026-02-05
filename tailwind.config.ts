@@ -17,6 +17,7 @@ export default {
         'heading': ['GTL001', 'Orbitron', 'sans-serif'],
         'body': ['Fjalla One', 'sans-serif'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'mono': ['Hasubi Mono', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
