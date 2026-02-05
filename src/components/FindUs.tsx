@@ -9,14 +9,16 @@ const FindUs = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}>
-          <h2 className="text-5xl md:text-6xl font-normal mb-6 inline-block">
+          <h2 className="text-5xl md:text-6xl font-normal mb-2 inline-block">
             <span className="bg-foreground text-background px-6 py-3">
               Hitta Oss
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Välkommen till Guldgruvan - mitt i hjärtat av Stockholm
-          </p>
+          <div>
+            <span className="bg-foreground text-background px-4 py-1 text-sm">
+              varje torsdag
+            </span>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
