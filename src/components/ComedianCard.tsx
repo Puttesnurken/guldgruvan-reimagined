@@ -9,7 +9,7 @@ const ComedianCard = ({
   description,
   image
 }: ComedianCardProps) => {
-  return <Card className="group overflow-hidden bg-card border-2 border-primary rounded-none hover:-translate-y-2 transition-all duration-300 h-full flex flex-col" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
+  return <Card className="group overflow-hidden bg-card border-0 rounded-none hover:-translate-y-2 transition-all duration-300 h-full flex flex-col" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
       <CardContent className="p-0 flex flex-col h-full">
         <div className="relative aspect-square overflow-hidden">
           <img src={image} alt={`${name} - Standupkomiker på Guldgruvan Stockholm`} className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" loading="lazy" />
