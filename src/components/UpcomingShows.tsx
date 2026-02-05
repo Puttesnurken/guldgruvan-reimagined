@@ -129,7 +129,7 @@ const UpcomingShows = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-bold text-base font-fnaf">{show.date}</span>
                       </div>
-                      <h3 className="text-lg font-bold text-foreground font-pixel">{show.title}</h3>
+                      <h3 className="text-lg font-bold text-foreground font-mono">{show.title}</h3>
                     </div>
                     {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
                         SLUTSÅLT
