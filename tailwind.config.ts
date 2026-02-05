@@ -18,6 +18,7 @@ export default {
         'body': ['Fjalla One', 'sans-serif'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
         'mono': ['Hasubi Mono', 'monospace'],
+        'pixel': ['04B_30', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
