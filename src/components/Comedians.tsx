@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors.png";
 import wagrell from "@/assets/wagrell.png";
-import chippen from "@/assets/chippen.png";
+import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp-new.jpg";
 import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez-new.jpg";
