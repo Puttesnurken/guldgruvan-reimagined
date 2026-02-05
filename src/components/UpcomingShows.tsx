@@ -154,7 +154,7 @@ const UpcomingShows = () => {
 
                   {/* Footer with button */}
                   <div className="flex items-center justify-center pt-4 border-t border-border/50 mt-4">
-                    <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full" disabled={!show.available} asChild={show.available}>
+                    <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full font-nabla text-lg" disabled={!show.available} asChild={show.available}>
                       {show.available ? <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
                           Köp biljett
