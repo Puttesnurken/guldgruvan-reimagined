@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         'heading': ['Bungee', 'cursive'],
+        'body': ['Fjalla One', 'sans-serif'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
