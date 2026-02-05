@@ -124,7 +124,7 @@ const Comedians = () => {
             </span>
           </h2>
           <p className="text-xl text-foreground max-w-3xl mx-auto leading-relaxed">
-            På Guldgruvan har vi en helt hemlig lineup. Ni får aldrig veta. Det spelar ingen roll hur mycket ni tjatar sa jag! Lägg av. Okej. Vi kan säga såhär: Sveriges bästa komiker kör hos oss. Bland annat dom här komikerna.
+            På Guldgruvan har vi en helt hemlig lineup. Ni får aldrig veta. Men: Sveriges bästa komiker kör hos oss. Bland annat dom här.
           </p>
         </div>
 
