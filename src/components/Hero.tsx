@@ -31,7 +31,7 @@ const Hero = () => {
             GULDGRUVAN
           </span>
         </h1>
-        <p className="text-xl md:text-2xl text-foreground mb-4 max-w-3xl mx-auto animate-fade-in-up opacity-0 font-mono font-bold" style={{
+        <p className="text-xl md:text-2xl text-foreground mb-4 max-w-3xl mx-auto animate-fade-in-up opacity-0 font-pixel" style={{
         animationDelay: "0.2s",
         animationFillMode: "forwards"
       }}>
