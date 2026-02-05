@@ -18,7 +18,7 @@ import christerSvensson from "@/assets/christer-svensson-new.jpg";
 import axelTidelius from "@/assets/axel-tidelius-new.jpg";
 import fredrikAndersson from "@/assets/fredrik-andersson-new.jpg";
 import ellinorSvensson from "@/assets/ellinor-svensson-new.jpg";
-import feliciaTomala from "@/assets/felicia-tomala.jpg";
+import feliciaTomala from "@/assets/felicia-tomala-new.jpg";
 import elviraGullberg from "@/assets/elvira-gullberg-new.jpg";
 
 const Comedians = () => {
