@@ -120,7 +120,9 @@ const UpcomingShows = () => {
           animationDelay: `${0.2 + index * 0.1}s`,
           animationFillMode: "forwards"
         }}>
-              <div className="group relative overflow-hidden rounded-none bg-card border-2 border-primary hover:-translate-y-2 transition-all duration-300 h-full flex flex-col" style={{ boxShadow: 'none' }} onMouseEnter={(e) => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={(e) => e.currentTarget.style.boxShadow = 'none'}>
+              <div className="group relative overflow-hidden rounded-none bg-card border-2 border-primary hover:-translate-y-2 transition-all duration-300 h-full flex flex-col" style={{
+            boxShadow: 'none'
+          }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
                 {/* Header with date */}
                 <div className="bg-secondary/50 p-4 border-b border-border/50">
                   <div className="flex items-start justify-between gap-2">
@@ -129,7 +131,7 @@ const UpcomingShows = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-bold text-base font-fnaf">{show.date}</span>
                       </div>
-                      <h3 className="text-lg font-bold text-foreground font-mono">{show.title}</h3>
+                      <h3 className="font-bold text-foreground font-pixel text-4xl">{show.title}</h3>
                     </div>
                     {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
                         SLUTSÅLT
