@@ -5,8 +5,7 @@ const Owners = () => {
   return <section id="owners" className="py-24 relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src={venue2} alt="" className="w-full h-full object-cover opacity-50" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background"></div>
+        <img src={venue2} alt="" className="w-full h-full object-cover opacity-70" />
       </div>
       
       {/* Decorative gradient overlays */}
