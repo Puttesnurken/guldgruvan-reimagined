@@ -4,40 +4,108 @@ import { Button } from "./ui/button";
 const UpcomingShows = () => {
   const shows = [
     {
-      date: "15 November 2025",
-      time: "19:00",
-      title: "Lördagskväll på Guldgruvan",
-      location: "Guldgruvan Comedy Club",
-      description: "En kväll full av skratt med några av Sveriges bästa komiker. Hemlig lineup som alltid!",
-      available: true,
-      price: "250 kr"
+      date: "5 februari 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/661949754",
+      available: true
     },
     {
-      date: "22 November 2025",
-      time: "19:00",
-      title: "Lördagskväll på Guldgruvan",
-      location: "Guldgruvan Comedy Club",
-      description: "Nya ansikten och gamla favoriter. Du vet aldrig vem som dyker upp på scenen!",
-      available: true,
-      price: "250 kr"
+      date: "12 februari 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1776329424",
+      available: true
     },
     {
-      date: "29 November 2025",
-      time: "19:00",
-      title: "Lördagskväll på Guldgruvan",
-      location: "Guldgruvan Comedy Club",
-      description: "Månadens sista show - missa inte chansen att avsluta november med skratt!",
-      available: true,
-      price: "250 kr"
+      date: "19 februari 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/599797920",
+      available: true
     },
     {
-      date: "6 December 2025",
-      time: "19:00",
-      title: "Julspecial på Guldgruvan",
-      location: "Guldgruvan Comedy Club",
-      description: "Julens roligaste kväll! Glögg, pepparkakor och massa skratt.",
-      available: false,
-      price: "300 kr"
+      date: "26 februari 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1864001394",
+      available: true
+    },
+    {
+      date: "5 mars 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1224613272",
+      available: true
+    },
+    {
+      date: "12 mars 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1950248950",
+      available: true
+    },
+    {
+      date: "19 mars 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1314808768",
+      available: true
+    },
+    {
+      date: "26 mars 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/721297055",
+      available: true
+    },
+    {
+      date: "2 april 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1758059035",
+      available: true
+    },
+    {
+      date: "9 april 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/330404075",
+      available: true
+    },
+    {
+      date: "16 april 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/571843336",
+      available: true
+    },
+    {
+      date: "23 april 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1866004518",
+      available: true
+    },
+    {
+      date: "30 april 2026",
+      time: "20:00",
+      title: "Guldgruvan Comedyklubb",
+      location: "Sofia Common, Stockholm",
+      ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/2076887578",
+      available: true
     }
   ];
 
@@ -90,7 +158,7 @@ const UpcomingShows = () => {
 
                 {/* Content */}
                 <div className="p-6 flex-1 flex flex-col">
-                  <div className="space-y-3 mb-6">
+                  <div className="space-y-3 mb-auto">
                     <div className="flex items-center gap-3 text-muted-foreground">
                       <Clock className="w-4 h-4 text-primary" />
                       <span>{show.time}</span>
@@ -101,21 +169,24 @@ const UpcomingShows = () => {
                     </div>
                   </div>
 
-                  <p className="text-muted-foreground leading-relaxed mb-6 flex-1">
-                    {show.description}
-                  </p>
-
-                  {/* Footer with price and button */}
-                  <div className="flex items-center justify-between gap-4 pt-4 border-t border-border/50">
-                    <div className="text-2xl font-bold text-foreground">
-                      {show.price}
-                    </div>
+                  {/* Footer with button */}
+                  <div className="flex items-center justify-end gap-4 pt-4 border-t border-border/50 mt-6">
                     <Button 
                       className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow"
                       disabled={!show.available}
+                      asChild={show.available}
                     >
-                      <Ticket className="w-4 h-4 mr-2" />
-                      {show.available ? "Köp biljett" : "Slutsålt"}
+                      {show.available ? (
+                        <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
+                          <Ticket className="w-4 h-4 mr-2" />
+                          Köp biljett
+                        </a>
+                      ) : (
+                        <>
+                          <Ticket className="w-4 h-4 mr-2" />
+                          Slutsålt
+                        </>
+                      )}
                     </Button>
                   </div>
                 </div>
