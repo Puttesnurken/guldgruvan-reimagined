@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
 import wagrell from "@/assets/johanna-wagrell-new.jpg";
-import chippen from "@/assets/simon-svensson-new.jpg";
+
 import davidAsp from "@/assets/david-asp-new.jpg";
 import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez-new.jpg";
@@ -23,71 +23,67 @@ const Comedians = () => {
   const [showAll, setShowAll] = useState(false);
   const comedians = [{
     name: "Ellinor Svensson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "En av Sveriges mest inflytelserika komiker. Hon började som en del av humorkollektivet Oslipat i Malmö och har sedan dess gjort sig känd för sin skånska tajming, orädda satir och kompromisslösa ärlighet.",
     image: ellinorSvensson
   }, {
     name: "Fredrik Andersson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "En av Sveriges främsta standupkomiker och skämtskrivare. Med sina smarta, noggrant utformade skämt har Fredrik blivit känd som en av landets bästa. Hans soloshow 'Serial Joker' vann pris som årets show.",
     image: fredrikAndersson
   }, {
-    name: "Simon Gärdenfors",
-    description: "Trots ämnen som sex och knark har Gärdenfors beskrivits som \"gullig\". Det är till viss del sant. Han ligger bakom succér som humortrion \"Specialisterna\" och låten \"Knulla barn\". Han samlar på olika godisförpackningar och etiketter och har på sin fritid blivit en av sveriges största underground-komiker.",
-    image: simonGardenfors
-  }, {
-    name: "Johanna Wagrell",
-    description: "Johanna Wagrell! Mest känd för sina poddar \"Vad blir det för mord?\" och \"Kafferepet\" som hon driver tillsammans med Ellinor Svensson respektive Albin Olsson och Nisse Hallberg. Utöver det är hon en av sveriges absolut vassaste komiker.",
-    image: wagrell
-  }, {
-    name: "Simon Svensson",
-    description: "Simon Svensson är på många sätt humorsveriges Jay-Z. Han började som komiker men har på senare år genom imperiet Under Produktion gjort sig själv känd som podmogul och direktör. Han är också en av grundarna till sveriges bästa klubb Under Jord.",
-    image: chippen
+    name: "Felicia Tomala",
+    description: "En av de nya rösterna på Sveriges standupscen. Felicia har snabbt blivit en publikfavorit med sin fräscha och roliga stil. Hon har även jobbat med TV och är gäst i poddar som Arkiv Samtal.",
+    image: feliciaTomala
   }, {
     name: "David Asp",
     description: "Sveriges yngsta komiker.",
     image: davidAsp
   }, {
     name: "Robin Berglund",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Robin Berglund har gjort det mesta inom svensk humor. Han turnerar nu med sin soloshow 'Soliga Hälsningar' och har även synts i Morgonpasset i P3 på Sveriges Radio.",
     image: robinBerglund
   }, {
     name: "Michel Sanchez",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "En komiker vars namn har blivit synonymt med subtilitet och skärpa. Hans minimalistiska humorstil, där varje ord och blick räknas, har gjort honom till en favorit bland både publik och kollegor.",
     image: michelSanchez
   }, {
     name: "Emil Arvas",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Emil Arvas humor befinner sig i gränslandet mellan det sofistikerade och det hjärndöda. Hans humor kan handla om vad som helst, men gemensamt för alla hans skämt är att de överraskar publiken.",
     image: emilArvas
   }, {
     name: "Ato Karlsson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Ato Karlsson har exploderat på standup-scenen hos Comedy Central och trollat med human crowd talk i London. Nu turnerar han med sin show fylld av skratt, självdistans och street-känsla.",
     image: atoKarlsson
   }, {
     name: "Lovisa Henriksson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "En uppskattad komiker på den svenska standupscenen som kombinerar skarp observation med hjärtlig humor.",
     image: lovisaHenriksson
   }, {
+    name: "Simon Gärdenfors",
+    description: "Trots ämnen som sex och knark har Gärdenfors beskrivits som 'gullig'. Han ligger bakom succéer som humortrion 'Specialisterna' och har blivit en av Sveriges största underground-komiker.",
+    image: simonGardenfors
+  }, {
+    name: "Johanna Wagrell",
+    description: "Mest känd för sina poddar 'Vad blir det för mord?' och 'Kafferepet' som hon driver tillsammans med Ellinor Svensson respektive Albin Olsson och Nisse Hallberg. En av Sveriges absolut vassaste komiker.",
+    image: wagrell
+  }, {
     name: "Albin Olsson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Programledare i Sveriges Radio P3 och ståuppkomiker sedan början av 2010-talet. Han är en del av humorkollektivet Specialisterna tillsammans med bl.a. Simon Gärdenfors och driver podden Kafferepet.",
     image: albinOlsson
   }, {
     name: "Ludde Samuelsson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Ett välkänt namn i ståuppbranschen sedan 2007, då han började som 17-åring. Sedan dess har han uppträtt på i stort sett alla Sveriges klubbar och driver Limhamns Comedy Club.",
     image: luddeSamuelsson
   }, {
     name: "Christer Svensson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Nominerad till årets nykomling 2025 på Svenska Standupgalan. Flitigt anlitad skämtskrivare för TV (Svenska Nyheter, Roast on the coast, Parlamentet) och viral sensation med miljontals visningar på TikTok.",
     image: christerSvensson
   }, {
     name: "Axel Tidelius",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "En uppskattad komiker på den svenska standupscenen med en unik förmåga att få publiken att skratta åt livets absurditeter.",
     image: axelTidelius
   }, {
-    name: "Felicia Tomala",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: feliciaTomala
-  }, {
     name: "Elvira Gullberg",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Även känd som 'Gullis'. Komiker, låtskrivare och läkare från Skåne. Känd för att skriva manus och låtar till Svenska Nyheter, där hennes låt om Tesla fick stor spridning. Nominerad till årets nykomling.",
     image: elviraGullberg
   }];
   return <section id="comedians" className="py-24 bg-secondary/30 relative overflow-hidden">
