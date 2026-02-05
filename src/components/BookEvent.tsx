@@ -5,7 +5,7 @@ import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
 import wagrell from "@/assets/johanna-wagrell-new.jpg";
 import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp.jpg";
-import robinBerglund from "@/assets/robin-berglund.jpg";
+import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez.jpg";
 
 const BookEvent = () => {
