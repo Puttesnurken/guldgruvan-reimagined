@@ -1,23 +1,8 @@
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Mail, Phone, Calendar } from "lucide-react";
-import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
-import wagrell from "@/assets/johanna-wagrell-new.jpg";
-import chippen from "@/assets/simon-svensson-new.jpg";
-import davidAsp from "@/assets/david-asp-new.jpg";
-import robinBerglund from "@/assets/robin-berglund-new.jpg";
-import michelSanchez from "@/assets/michel-sanchez-new.jpg";
 
 const BookEvent = () => {
-  const featuredComedians = [
-    { name: "Simon Gärdenfors", image: simonGardenfors },
-    { name: "Johanna Wagrell", image: wagrell },
-    { name: "Simon Svensson", image: chippen },
-    { name: "David Asp", image: davidAsp },
-    { name: "Robin Berglund", image: robinBerglund },
-    { name: "Michel Sanchez", image: michelSanchez },
-  ];
-
   return (
     <section id="book-event" className="py-20 px-6 bg-muted/20">
       <div className="container mx-auto max-w-6xl">
@@ -30,7 +15,7 @@ const BookEvent = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
+        <div className="grid md:grid-cols-2 gap-12">
           <Card className="border-border bg-card hover:shadow-elevation-high transition-all duration-500">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-primary mb-6">Vad ingår?</h3>
@@ -89,35 +74,6 @@ const BookEvent = () => {
               </div>
             </CardContent>
           </Card>
-        </div>
-
-        <div className="text-center mb-8">
-          <h3 className="text-3xl font-bold text-primary mb-4">Några av våra komiker</h3>
-          <p className="text-muted-foreground">
-            Vi har Sveriges bästa komiker redo att underhålla er
-          </p>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-          {featuredComedians.map((comedian, index) => (
-            <div
-              key={index}
-              className="group cursor-pointer animate-fade-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <div className="aspect-square overflow-hidden rounded-lg border border-border hover:border-primary transition-all duration-500 hover:shadow-elevation-high">
-                <img
-                  src={comedian.image}
-                  alt={comedian.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 grayscale"
-                  style={{ objectPosition: 'center calc(50% - 10px)' }}
-                />
-              </div>
-              <p className="text-sm text-center mt-3 text-foreground font-medium group-hover:text-primary transition-colors">
-                {comedian.name}
-              </p>
-            </div>
-          ))}
         </div>
       </div>
     </section>
