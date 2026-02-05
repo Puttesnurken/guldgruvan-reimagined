@@ -15,7 +15,7 @@ const Index = () => {
       <Navigation />
       <Hero />
       <UpcomingShows />
-      
+      <Comedians />
       <Owners />
       <About />
       <BookEvent />
