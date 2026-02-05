@@ -42,12 +42,12 @@ const Hero = () => {
         animationDelay: "0.6s",
         animationFillMode: "forwards"
       }}>
-          <Button asChild size="lg" className="bg-bw-gradient text-primary-foreground font-bold text-lg px-8 hover:shadow-glow transition-all animate-glow-pulse">
+          <Button asChild size="lg" className="rounded-none bg-bw-gradient text-primary-foreground font-bold text-lg px-8 transition-all duration-300 hover:-translate-y-2 border-2 border-primary" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
             <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
               Köp Biljetter
             </a>
           </Button>
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8 transition-all" onClick={() => {
+          <Button size="lg" variant="outline" className="rounded-none border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold text-lg px-8 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'} onClick={() => {
           const element = document.getElementById("comedians");
           element?.scrollIntoView({
             behavior: "smooth"
