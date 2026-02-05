@@ -1,10 +1,9 @@
 const About = () => {
-  return (
-    <section id="about" className="py-24 bg-background">
+  return <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl md:text-6xl font-normal mb-8 inline-block">
-            <span className="bg-foreground text-background px-6 py-3">
+            <span className="bg-foreground text-background py-px px-[2px] my-0">
               Om Guldgruvan
             </span>
           </h2>
@@ -21,8 +20,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

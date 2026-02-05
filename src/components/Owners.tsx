@@ -1,6 +1,5 @@
 import foundersImage from "@/assets/founders.jpg";
 import venue2 from "@/assets/venue-2.jpg";
-
 const Owners = () => {
   return <section id="owners" className="py-24 relative overflow-hidden">
       {/* Background Image */}
@@ -23,9 +22,7 @@ const Owners = () => {
               Grundarna
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Möt duon bakom Guldgruvan - Sveriges mest innovativa komediklubb
-          </p>
+          
         </div>
 
         <div className="max-w-2xl mx-auto">
