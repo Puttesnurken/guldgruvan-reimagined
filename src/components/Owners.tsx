@@ -33,7 +33,7 @@ const Owners = () => {
                 
                 {/* Name overlay on image */}
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-2xl font-bold text-foreground mb-1 font-pixel uppercase">Leon Jämtin & Johannes Brenning</h3>
+                  <h3 className="text-3xl font-bold text-foreground mb-1 font-pixel">Leon Jämtin & Johannes Brenning</h3>
                   <p className="text-primary font-medium font-fnaf">Grundare</p>
                 </div>
               </div>
