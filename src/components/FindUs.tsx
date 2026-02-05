@@ -9,7 +9,7 @@ const FindUs = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal mb-6">
             <span className="bg-bw-gradient bg-clip-text text-transparent">
               Hitta Oss
             </span>
