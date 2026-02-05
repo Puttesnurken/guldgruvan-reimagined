@@ -7,7 +7,7 @@ const BookEvent = () => {
     <section id="book-event" className="py-20 px-6 bg-muted/20">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="text-4xl md:text-5xl font-normal text-primary mb-6">
             Boka Event
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">

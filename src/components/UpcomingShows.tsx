@@ -105,8 +105,8 @@ const UpcomingShows = () => {
         animationDelay: '0.1s',
         animationFillMode: 'forwards'
       }}>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-bw-gradient bg-clip-text text-transparent font-extralight">
+          <h2 className="text-4xl md:text-5xl font-normal mb-6">
+            <span className="bg-bw-gradient bg-clip-text text-transparent">
               Kommande Shower
             </span>
           </h2>
