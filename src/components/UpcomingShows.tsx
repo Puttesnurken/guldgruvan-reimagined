@@ -110,9 +110,7 @@ const UpcomingShows = () => {
               Kommande Shower
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Boka din biljett nu och upplev Sveriges roligaste komedikväll!
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto font-extralight text-4xl">
