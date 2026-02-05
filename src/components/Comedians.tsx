@@ -25,6 +25,11 @@ const Comedians = () => {
   const [showAll, setShowAll] = useState(false);
   const comedians = [
     {
+      name: "Ellinor Svensson",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      image: ellinorSvensson
+    },
+    {
       name: "Simon Gärdenfors",
       description: "Trots ämnen som sex och knark har Gärdenfors beskrivits som \"gullig\". Det är till viss del sant. Han ligger bakom succér som humortrion \"Specialisterna\" och låten \"Knulla barn\". Han samlar på olika godisförpackningar och etiketter och har på sin fritid blivit en av sveriges största underground-komiker.",
       image: simonGardenfors
@@ -93,11 +98,6 @@ const Comedians = () => {
       name: "Fredrik Andersson",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       image: fredrikAndersson
-    },
-    {
-      name: "Ellinor Svensson",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      image: ellinorSvensson
     },
     {
       name: "Felicia Tomala",
