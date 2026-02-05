@@ -8,42 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
+    /* Retro Mexican Color Palette */
+    --background: 25 30% 8%;
+    --foreground: 45 30% 95%;
 
-    --card: 0 0% 5%;
-    --card-foreground: 0 0% 100%;
+    --card: 25 25% 12%;
+    --card-foreground: 45 30% 95%;
 
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 25 25% 12%;
+    --popover-foreground: 45 30% 95%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 0 0% 0%;
+    /* Turquoise primary - classic Mexican color */
+    --primary: 174 72% 56%;
+    --primary-foreground: 25 30% 8%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 25 20% 18%;
+    --secondary-foreground: 45 30% 95%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 25 15% 22%;
+    --muted-foreground: 35 20% 60%;
 
-    --accent: 0 0% 95%;
-    --accent-foreground: 0 0% 0%;
+    /* Coral/Terracotta accent */
+    --accent: 14 80% 60%;
+    --accent-foreground: 25 30% 8%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 45 30% 95%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 0 0% 100%;
+    --border: 25 20% 25%;
+    --input: 25 20% 25%;
+    --ring: 174 72% 56%;
 
     --radius: 0.75rem;
 
-    /* BW gradient */
-    --bw-gradient: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 85%) 100%);
+    /* Mustard yellow for highlights */
+    --mustard: 45 90% 55%;
+    --terracotta: 14 70% 50%;
+    --turquoise: 174 72% 56%;
+
+    /* Retro Mexican gradient */
+    --bw-gradient: linear-gradient(135deg, hsl(174, 72%, 56%) 0%, hsl(174, 72%, 40%) 100%);
+    --sunset-gradient: linear-gradient(135deg, hsl(14, 80%, 60%) 0%, hsl(45, 90%, 55%) 100%);
     
-    /* Enhanced shadows for depth */
-    --shadow-glow: 0 0 30px hsla(0, 0%, 100%, 0.3);
-    --shadow-card: 0 10px 40px hsla(0, 0%, 0%, 0.5);
+    /* Enhanced shadows with warm tones */
+    --shadow-glow: 0 0 30px hsla(174, 72%, 56%, 0.4);
+    --shadow-card: 0 10px 40px hsla(25, 30%, 0%, 0.6);
     --shadow-elevation-low: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
     --shadow-elevation-medium: 0 4px 6px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.5);
     --shadow-elevation-high: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.6);
