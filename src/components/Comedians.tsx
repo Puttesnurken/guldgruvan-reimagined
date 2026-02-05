@@ -95,14 +95,16 @@ const Comedians = () => {
         animationDelay: '0.1s',
         animationFillMode: 'forwards'
       }}>
-          <h2 className="text-5xl md:text-6xl font-normal mb-6 inline-block">
+          <h2 className="text-5xl md:text-6xl font-normal mb-2 inline-block">
             <span className="bg-foreground text-background px-6 py-3">
               Hemlig Lineup
             </span>
           </h2>
-          <p className="text-xl text-foreground max-w-3xl mx-auto leading-relaxed">
-            På Guldgruvan har vi en helt hemlig lineup. Ni får aldrig veta. Men: Sveriges bästa komiker kör hos oss. Bland annat dom här.
-          </p>
+          <div>
+            <span className="bg-foreground text-background px-4 py-1 text-sm">
+              med typ dom här
+            </span>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
