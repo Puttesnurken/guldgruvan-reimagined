@@ -1,17 +1,53 @@
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import heroStage from "@/assets/hero-stage.jpg";
+import venue1 from "@/assets/venue-1.jpg";
+import venue2 from "@/assets/venue-2.jpg";
+import venue3 from "@/assets/venue-3.jpg";
+
+const heroImages = [venue1, venue2, venue3];
 
 const Hero = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Image Slideshow with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroStage}
-          alt="Guldgruvan standupklubb scen i Stockholm - Sveriges bästa comedy club"
-          className="w-full h-full object-cover opacity-70"
-        />
+        {heroImages.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Guldgruvan standupklubb scen i Stockholm - Sveriges bästa comedy club ${index + 1}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              index === currentImageIndex ? "opacity-70" : "opacity-0"
+            }`}
+          />
+        ))}
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/60 to-background"></div>
+      </div>
+
+      {/* Slideshow Indicators */}
+      <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 z-20 flex gap-2">
+        {heroImages.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrentImageIndex(index)}
+            className={`w-2 h-2 rounded-full transition-all duration-300 ${
+              index === currentImageIndex 
+                ? "bg-primary w-6" 
+                : "bg-muted-foreground/50 hover:bg-muted-foreground"
+            }`}
+            aria-label={`Visa bild ${index + 1}`}
+          />
+        ))}
       </div>
 
       {/* Content */}
