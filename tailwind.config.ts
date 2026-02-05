@@ -19,6 +19,8 @@ export default {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
         'mono': ['Hasubi Mono', 'monospace'],
         'pixel': ['04B_30', 'monospace'],
+        'luemu': ['LUEMU', 'sans-serif'],
+        'komigo': ['Komigo3D', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
