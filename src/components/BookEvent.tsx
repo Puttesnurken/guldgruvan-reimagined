@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Mail, Phone, Calendar } from "lucide-react";
-import simonGardenfors from "@/assets/simon-gardenfors.png";
+import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
 import wagrell from "@/assets/wagrell.png";
 import chippen from "@/assets/chippen.png";
 import davidAsp from "@/assets/david-asp.jpg";
