@@ -110,7 +110,7 @@ const BookEvent = () => {
                   src={comedian.image}
                   alt={comedian.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 grayscale"
-                  style={{ objectPosition: 'center calc(50% + 10px)' }}
+                  style={{ objectPosition: 'center calc(50%)' }}
                 />
               </div>
               <p className="text-sm text-center mt-3 text-foreground font-medium group-hover:text-primary transition-colors">
