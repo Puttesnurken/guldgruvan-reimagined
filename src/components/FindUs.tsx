@@ -49,7 +49,7 @@ const FindUs = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Öppettider</h4>
-                    <p className="text-muted-foreground">Onsdagar: 20:00 (dörrarna öppnar 19:30)</p>
+                    <p className="text-muted-foreground">Torsdagar: 20:00 (dörrarna öppnar 19:30)</p>
                   </div>
                 </div>
 
