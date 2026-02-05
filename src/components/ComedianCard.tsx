@@ -22,7 +22,7 @@ const ComedianCard = ({ name, description, image }: ComedianCardProps) => {
         </div>
         <div className="p-6 flex-1 flex flex-col">
           <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-foreground transition-colors duration-300">{name}</h3>
-          <p className="text-muted-foreground leading-relaxed text-sm line-clamp-4">{description}</p>
+          <p className="text-muted-foreground leading-relaxed text-sm line-clamp-4 font-body">{description}</p>
         </div>
       </CardContent>
     </Card>
