@@ -21,6 +21,7 @@ export default {
         'pixel': ['04B_30', 'monospace'],
         'luemu': ['LUEMU', 'sans-serif'],
         'komigo': ['Komigo3D', 'sans-serif'],
+        'mcten': ['MC Ten', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
