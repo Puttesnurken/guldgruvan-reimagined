@@ -36,8 +36,9 @@ const FindUs = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Adress</h4>
-                    <p className="text-muted-foreground">Södermalmsvägen 123</p>
-                    <p className="text-muted-foreground">118 46 Stockholm</p>
+                    <p className="text-muted-foreground">Sofia Common</p>
+                    <p className="text-muted-foreground">Wollmar Yxkullsgatan 15</p>
+                    <p className="text-muted-foreground">118 50 Stockholm</p>
                   </div>
                 </div>
 
@@ -48,8 +49,7 @@ const FindUs = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Öppettider</h4>
-                    <p className="text-muted-foreground">Fredagar & Lördagar: 18:00 - 23:00</p>
-                    <p className="text-muted-foreground">Övriga dagar: Stängt</p>
+                    <p className="text-muted-foreground">Onsdagar: 20:00 (dörrarna öppnar 19:30)</p>
                   </div>
                 </div>
 
@@ -93,9 +93,8 @@ const FindUs = () => {
             <div className="mt-6 bg-secondary/50 border border-border/50 rounded-lg p-6">
               <h4 className="font-semibold text-foreground mb-3">Hitta hit</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Vi ligger centralt på Södermalm, bara 5 minuters promenad från Medborgarplatsen. 
-                Närmaste tunnelbanestation är Medborgarplatsen (Röda och Gröna linjen). 
-                Det finns även god tillgång till busshållplatser i närheten.
+                Vi håller till på Sofia Common på Södermalm. Närmaste tunnelbanestation är Medborgarplatsen 
+                (Röda och Gröna linjen), ca 5 minuters promenad. Det finns även god tillgång till busshållplatser i närheten.
               </p>
             </div>
           </div>
