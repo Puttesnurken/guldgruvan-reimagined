@@ -39,7 +39,7 @@ const Navigation = () => {
           </button>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 font-fnaf">
             <button
               onClick={() => scrollToSection("hero")}
               className="text-foreground hover:text-primary transition-colors"
@@ -68,7 +68,7 @@ const Navigation = () => {
               onClick={() => scrollToSection("book-event")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Boka Event
+              Boka Oss
             </button>
             <button
               onClick={() => scrollToSection("find-us")}
@@ -104,7 +104,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 font-fnaf">
               <button
                 onClick={() => scrollToSection("hero")}
                 className="text-foreground hover:text-primary transition-colors text-left py-2"
@@ -133,7 +133,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection("book-event")}
                 className="text-foreground hover:text-primary transition-colors text-left py-2"
               >
-                Boka Event
+                Boka Oss
               </button>
               <button
                 onClick={() => scrollToSection("find-us")}
