@@ -113,7 +113,7 @@ const BookEvent = () => {
                 <img
                   src={comedian.image}
                   alt={comedian.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 grayscale"
                 />
               </div>
               <p className="text-sm text-center mt-3 text-foreground font-medium group-hover:text-primary transition-colors">
