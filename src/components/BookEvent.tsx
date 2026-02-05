@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card";
 import { Mail, Phone, Calendar } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
 import wagrell from "@/assets/wagrell.png";
-import chippen from "@/assets/chippen.png";
+import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp.jpg";
 import robinBerglund from "@/assets/robin-berglund.jpg";
 import michelSanchez from "@/assets/michel-sanchez.jpg";
