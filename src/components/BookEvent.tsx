@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Mail, Phone, Calendar } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
-import wagrell from "@/assets/wagrell.png";
+import wagrell from "@/assets/johanna-wagrell-new.jpg";
 import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp.jpg";
 import robinBerglund from "@/assets/robin-berglund.jpg";
@@ -11,7 +11,7 @@ import michelSanchez from "@/assets/michel-sanchez.jpg";
 const BookEvent = () => {
   const featuredComedians = [
     { name: "Simon Gärdenfors", image: simonGardenfors },
-    { name: "Johanna Hurtig Wagrell", image: wagrell },
+    { name: "Johanna Wagrell", image: wagrell },
     { name: "Simon Svensson", image: chippen },
     { name: "David Asp", image: davidAsp },
     { name: "Robin Berglund", image: robinBerglund },
