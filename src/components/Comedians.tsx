@@ -10,7 +10,7 @@ import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez-new.jpg";
 import emilArvas from "@/assets/emil-arvas-new.jpg";
 
-import atoKarlsson from "@/assets/ato-karlsson.jpg";
+import atoKarlsson from "@/assets/ato-karlsson-new.jpg";
 import lovisaHenriksson from "@/assets/lovisa-henriksson-new.jpg";
 import albinOlsson from "@/assets/albin-olsson-new.jpg";
 import luddeSamuelsson from "@/assets/ludde-samuelsson-new.png";
