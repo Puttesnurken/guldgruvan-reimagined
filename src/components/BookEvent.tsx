@@ -6,7 +6,7 @@ import wagrell from "@/assets/johanna-wagrell-new.jpg";
 import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp.jpg";
 import robinBerglund from "@/assets/robin-berglund-new.jpg";
-import michelSanchez from "@/assets/michel-sanchez.jpg";
+import michelSanchez from "@/assets/michel-sanchez-new.jpg";
 
 const BookEvent = () => {
   const featuredComedians = [
