@@ -31,9 +31,10 @@ const Hero = () => {
             GULDGRUVAN
           </span>
         </h1>
-        <p className="text-xl md:text-2xl text-foreground mb-4 max-w-3xl mx-auto animate-fade-in-up opacity-0 font-pixel" style={{
+        <p className="text-xl md:text-2xl text-foreground mb-4 max-w-3xl mx-auto animate-fade-in-up opacity-0" style={{
         animationDelay: "0.2s",
-        animationFillMode: "forwards"
+        animationFillMode: "forwards",
+        fontFamily: "'04B_30', monospace"
       }}>
           Sveriges coolaste klubb
         </p>
