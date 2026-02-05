@@ -61,12 +61,8 @@ const BookEvent = () => {
 
           <Card className="border-border bg-card hover:shadow-elevation-high transition-all duration-500">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-primary mb-6">Pris & Kontakt</h3>
+              <h3 className="text-2xl font-bold text-primary mb-6">Kontakt</h3>
               <div className="space-y-6">
-                <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
-                  <p className="text-3xl font-bold text-primary mb-2">10 000 - 15 000 kr</p>
-                  <p className="text-sm text-muted-foreground">Per event, beroende på längd och antal komiker</p>
-                </div>
                 
                 <div className="space-y-4 text-muted-foreground">
                   <div className="flex items-center gap-3">
