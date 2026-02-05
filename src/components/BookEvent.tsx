@@ -7,14 +7,16 @@ const BookEvent = () => {
     <section id="book-event" className="py-20 px-6 bg-muted/20">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-5xl md:text-6xl font-normal mb-6 inline-block">
+          <h2 className="text-5xl md:text-6xl font-normal mb-2 inline-block">
             <span className="bg-foreground text-background px-6 py-3">
               Boka Event
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Gör din företagskväll, kickoff eller krogshow oförglömlig med våra skickliga komiker
-          </p>
+          <div>
+            <span className="bg-foreground text-background px-4 py-1 text-sm">
+              till fest
+            </span>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
