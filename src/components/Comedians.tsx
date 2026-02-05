@@ -17,7 +17,7 @@ import luddeSamuelsson from "@/assets/ludde-samuelsson-new.png";
 import christerSvensson from "@/assets/christer-svensson.jpg";
 import axelTidelius from "@/assets/axel-tidelius.jpg";
 import fredrikAndersson from "@/assets/fredrik-andersson.jpg";
-import ellinorSvensson from "@/assets/ellinor-svensson.jpg";
+import ellinorSvensson from "@/assets/ellinor-svensson-new.jpg";
 import feliciaTomala from "@/assets/felicia-tomala.jpg";
 import elviraGullberg from "@/assets/elvira-gullberg-new.jpg";
 
