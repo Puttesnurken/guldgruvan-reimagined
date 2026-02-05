@@ -9,7 +9,7 @@ const BookEvent = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-normal mb-2 inline-block">
             <span className="bg-foreground text-background px-6 py-3">
-              Boka Event
+              Boka Oss
             </span>
           </h2>
           <div>
