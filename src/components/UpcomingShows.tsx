@@ -115,7 +115,7 @@ const UpcomingShows = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto font-extralight text-4xl">
           {shows.slice(0, showAll ? shows.length : 6).map((show, index) => <div key={index} className="animate-scale-in opacity-0" style={{
           animationDelay: `${0.2 + index * 0.1}s`,
           animationFillMode: "forwards"
@@ -129,7 +129,7 @@ const UpcomingShows = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-bold text-base">{show.date}</span>
                       </div>
-                      <h3 className="text-lg font-bold text-foreground font-mcten">{show.title}</h3>
+                      <h3 className="text-lg font-bold text-foreground">{show.title}</h3>
                     </div>
                     {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
                         SLUTSÅLT
