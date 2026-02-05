@@ -24,6 +24,7 @@ export default {
         'mcten': ['MC Ten', 'monospace'],
         'fnaf': ['Five Nights', 'sans-serif'],
         'nabla': ['Nabla', 'sans-serif'],
+        'impact': ['Anton', 'Impact', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

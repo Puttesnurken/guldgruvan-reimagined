@@ -39,7 +39,7 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-normal text-center mb-12">
             <span className="bg-bw-gradient bg-clip-text text-transparent">
-              Vanliga Frågor
+              FAQ
             </span>
           </h2>
           <Accordion type="single" collapsible className="space-y-4">
@@ -49,7 +49,7 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-card border border-border rounded-lg px-6 hover:border-primary transition-colors"
               >
-                <AccordionTrigger className="text-left text-lg font-semibold text-foreground hover:text-primary">
+                <AccordionTrigger className="text-left text-lg font-bold text-foreground hover:text-primary font-impact">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-foreground leading-relaxed">
