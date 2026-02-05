@@ -19,7 +19,7 @@ import axelTidelius from "@/assets/axel-tidelius.jpg";
 import fredrikAndersson from "@/assets/fredrik-andersson.jpg";
 import ellinorSvensson from "@/assets/ellinor-svensson.jpg";
 import feliciaTomala from "@/assets/felicia-tomala.jpg";
-import elviraGullberg from "@/assets/elvira-gullberg.jpg";
+import elviraGullberg from "@/assets/elvira-gullberg-new.jpg";
 
 const Comedians = () => {
   const [showAll, setShowAll] = useState(false);
