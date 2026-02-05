@@ -120,7 +120,7 @@ const UpcomingShows = () => {
           animationDelay: `${0.2 + index * 0.1}s`,
           animationFillMode: "forwards"
         }}>
-              <div className="group relative overflow-hidden rounded-lg bg-card border border-border hover:border-primary transition-all duration-500 hover:shadow-elevation-high h-full flex flex-col">
+              <div className="group relative overflow-hidden rounded-none bg-card border border-border hover:border-2 hover:border-primary hover:-translate-y-1 transition-all duration-300 h-full flex flex-col" style={{ boxShadow: 'none' }} onMouseEnter={(e) => e.currentTarget.style.boxShadow = '4px 4px 0px 0px hsl(var(--primary))'} onMouseLeave={(e) => e.currentTarget.style.boxShadow = 'none'}>
                 {/* Header with date */}
                 <div className="bg-secondary/50 p-4 border-b border-border/50">
                   <div className="flex items-start justify-between gap-2">
