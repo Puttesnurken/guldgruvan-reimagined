@@ -25,6 +25,7 @@ export default {
         'fnaf': ['Five Nights', 'sans-serif'],
         'nabla': ['Nabla', 'sans-serif'],
         'impact': ['Anton', 'Impact', 'sans-serif'],
+        'saira': ['Saira', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
