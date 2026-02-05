@@ -33,7 +33,7 @@ const Navigation = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="hover:opacity-80 transition-opacity border-2 border-foreground rounded-lg px-3 py-1"
+            className="hover:opacity-80 transition-opacity"
           >
             <span className="font-heading text-2xl md:text-3xl font-bold text-foreground tracking-tight">GG</span>
           </button>
