@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors.png";
 import wagrell from "@/assets/wagrell.png";
 import chippen from "@/assets/chippen.png";
-import davidAsp from "@/assets/david-asp.jpg";
+import davidAsp from "@/assets/david-asp-new.jpg";
 import robinBerglund from "@/assets/robin-berglund.jpg";
 import michelSanchez from "@/assets/michel-sanchez.jpg";
 import emilArvas from "@/assets/emil-arvas.jpg";
