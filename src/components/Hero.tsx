@@ -52,7 +52,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in tracking-widest">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in tracking-[0.2em]">
           <span className="bg-bw-gradient bg-clip-text text-transparent">
             GULDGRUVAN
           </span>
