@@ -105,12 +105,16 @@ const UpcomingShows = () => {
         animationDelay: '0.1s',
         animationFillMode: 'forwards'
       }}>
-          <h2 className="text-5xl md:text-6xl font-normal mb-6 inline-block">
+          <h2 className="text-5xl md:text-6xl font-normal mb-2 inline-block">
             <span className="bg-foreground text-background px-6 py-3">
               Kommande Shower
             </span>
           </h2>
-          
+          <div>
+            <span className="bg-foreground text-background px-4 py-1 text-sm">
+              har du fomo
+            </span>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto font-extralight text-4xl">
