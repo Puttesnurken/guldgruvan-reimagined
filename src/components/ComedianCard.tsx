@@ -13,8 +13,9 @@ const ComedianCard = ({ name, description, image }: ComedianCardProps) => {
         <div className="relative aspect-square overflow-hidden">
           <img
             src={image}
-            alt={name}
+            alt={`${name} - Standupkomiker på Guldgruvan Stockholm`}
             className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-2 transition-all duration-700"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent opacity-70 group-hover:opacity-80 transition-opacity duration-500"></div>
           <div className="absolute inset-0 bg-bw-gradient opacity-0 group-hover:opacity-10 transition-opacity duration-500 mix-blend-overlay"></div>

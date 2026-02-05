@@ -8,10 +8,12 @@ import BookEvent from "@/components/BookEvent";
 import FindUs from "@/components/FindUs";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import SEOSchema from "@/components/SEOSchema";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOSchema />
       <Navigation />
       <Hero />
       <UpcomingShows />

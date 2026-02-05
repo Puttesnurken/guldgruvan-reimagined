@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroStage}
-          alt="Guldgruvan comedy club stage"
+          alt="Guldgruvan standupklubb scen i Stockholm - Sveriges bästa comedy club"
           className="w-full h-full object-cover opacity-70"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/60 to-background"></div>
