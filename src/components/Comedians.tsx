@@ -6,7 +6,7 @@ import simonGardenfors from "@/assets/simon-gardenfors.png";
 import wagrell from "@/assets/wagrell.png";
 import chippen from "@/assets/chippen.png";
 import davidAsp from "@/assets/david-asp-new.jpg";
-import robinBerglund from "@/assets/robin-berglund.jpg";
+import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez-new.jpg";
 import emilArvas from "@/assets/emil-arvas.jpg";
 import brannePavlovic from "@/assets/branne-pavlovic.jpg";
