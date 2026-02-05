@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'baloo': ['Baloo 2', 'cursive'],
+        'heading': ['Bungee', 'cursive'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
