@@ -127,7 +127,7 @@ const UpcomingShows = () => {
                     <div className="flex-1">
                       <div className="flex items-center gap-2 text-primary mb-1">
                         <Calendar className="w-4 h-4" />
-                        <span className="font-bold text-base">{show.date}</span>
+                        <span className="font-bold text-base font-fnaf">{show.date}</span>
                       </div>
                       <h3 className="text-lg font-bold text-foreground font-pixel">{show.title}</h3>
                     </div>
