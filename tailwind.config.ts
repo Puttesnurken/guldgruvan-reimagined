@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'heading': ['Orbitron', 'sans-serif'],
+        'heading': ['GTL001', 'Orbitron', 'sans-serif'],
         'body': ['Fjalla One', 'sans-serif'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
