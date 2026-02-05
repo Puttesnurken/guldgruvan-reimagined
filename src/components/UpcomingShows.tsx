@@ -6,91 +6,91 @@ const UpcomingShows = () => {
   const shows = [{
     date: "5 februari 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/661949754",
     available: true
   }, {
     date: "12 februari 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1776329424",
     available: true
   }, {
     date: "19 februari 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/599797920",
     available: true
   }, {
     date: "26 februari 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1864001394",
     available: true
   }, {
     date: "5 mars 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1224613272",
     available: true
   }, {
     date: "12 mars 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1950248950",
     available: true
   }, {
     date: "19 mars 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1314808768",
     available: true
   }, {
     date: "26 mars 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/721297055",
     available: true
   }, {
     date: "2 april 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1758059035",
     available: true
   }, {
     date: "9 april 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/330404075",
     available: true
   }, {
     date: "16 april 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/571843336",
     available: true
   }, {
     date: "23 april 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1866004518",
     available: true
   }, {
     date: "30 april 2026",
     time: "20:00",
-    title: "Guldgruvan Comedyklubb",
+    title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
     ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/2076887578",
     available: true
