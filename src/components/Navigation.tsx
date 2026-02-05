@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,9 +33,9 @@ const Navigation = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity border-2 border-foreground rounded-lg px-3 py-1"
           >
-            <img src={logo} alt="Guldgruvan" className="h-10 md:h-12" />
+            <span className="font-heading text-2xl md:text-3xl font-bold text-foreground tracking-tight">GG</span>
           </button>
 
           {/* Desktop Menu */}
