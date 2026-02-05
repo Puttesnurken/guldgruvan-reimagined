@@ -8,7 +8,7 @@ import chippen from "@/assets/chippen.png";
 import davidAsp from "@/assets/david-asp-new.jpg";
 import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez-new.jpg";
-import emilArvas from "@/assets/emil-arvas.jpg";
+import emilArvas from "@/assets/emil-arvas-new.jpg";
 import brannePavlovic from "@/assets/branne-pavlovic.jpg";
 import atoKarlsson from "@/assets/ato-karlsson.jpg";
 import lovisaHenriksson from "@/assets/lovisa-henriksson.jpg";
