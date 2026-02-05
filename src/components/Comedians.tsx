@@ -3,7 +3,7 @@ import ComedianCard from "./ComedianCard";
 import { Button } from "./ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import simonGardenfors from "@/assets/simon-gardenfors.png";
-import wagrell from "@/assets/wagrell.png";
+import wagrell from "@/assets/johanna-wagrell-new.jpg";
 import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp-new.jpg";
 import robinBerglund from "@/assets/robin-berglund-new.jpg";
@@ -30,7 +30,7 @@ const Comedians = () => {
       image: simonGardenfors
     },
     {
-      name: "Johanna Hurtig Wagrell",
+      name: "Johanna Wagrell",
       description: "Johanna Wagrell! Mest känd för sina poddar \"Vad blir det för mord?\" och \"Kafferepet\" som hon driver tillsammans med Ellinor Svensson respektive Albin Olsson och Nisse Hallberg. Utöver det är hon en av sveriges absolut vassaste komiker.",
       image: wagrell
     },
