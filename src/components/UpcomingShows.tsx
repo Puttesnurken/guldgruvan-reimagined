@@ -129,8 +129,8 @@ const UpcomingShows = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-6 max-w-4xl mx-auto">
-          {shows.slice(0, showAll ? shows.length : 4).map((show, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {shows.slice(0, showAll ? shows.length : 6).map((show, index) => (
             <div
               key={index}
               className="animate-scale-in opacity-0"
@@ -141,17 +141,17 @@ const UpcomingShows = () => {
             >
               <div className="group relative overflow-hidden rounded-lg bg-card border border-border hover:border-primary transition-all duration-500 hover:shadow-elevation-high h-full flex flex-col">
                 {/* Header with date */}
-                <div className="bg-secondary/50 p-6 border-b border-border/50">
-                  <div className="flex items-start justify-between gap-4">
+                <div className="bg-secondary/50 p-4 border-b border-border/50">
+                  <div className="flex items-start justify-between gap-2">
                     <div className="flex-1">
-                      <div className="flex items-center gap-2 text-primary mb-2">
-                        <Calendar className="w-5 h-5" />
-                        <span className="font-bold text-lg">{show.date}</span>
+                      <div className="flex items-center gap-2 text-primary mb-1">
+                        <Calendar className="w-4 h-4" />
+                        <span className="font-bold text-base">{show.date}</span>
                       </div>
-                      <h3 className="text-2xl font-bold text-foreground mb-2">{show.title}</h3>
+                      <h3 className="text-lg font-bold text-foreground">{show.title}</h3>
                     </div>
                     {!show.available && (
-                      <span className="px-3 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
+                      <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
                         SLUTSÅLT
                       </span>
                     )}
@@ -159,22 +159,22 @@ const UpcomingShows = () => {
                 </div>
 
                 {/* Content */}
-                <div className="p-6 flex-1 flex flex-col">
-                  <div className="space-y-3 mb-auto">
-                    <div className="flex items-center gap-3 text-muted-foreground">
+                <div className="p-4 flex-1 flex flex-col">
+                  <div className="space-y-2 mb-auto">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <Clock className="w-4 h-4 text-primary" />
                       <span>{show.time}</span>
                     </div>
-                    <div className="flex items-center gap-3 text-muted-foreground">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <MapPin className="w-4 h-4 text-primary" />
                       <span>{show.location}</span>
                     </div>
                   </div>
 
                   {/* Footer with button */}
-                  <div className="flex items-center justify-end gap-4 pt-4 border-t border-border/50 mt-6">
+                  <div className="flex items-center justify-center pt-4 border-t border-border/50 mt-4">
                     <Button 
-                      className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full"
                       disabled={!show.available}
                       asChild={show.available}
                     >
@@ -201,7 +201,7 @@ const UpcomingShows = () => {
         </div>
 
         {/* Show More/Less Button */}
-        {shows.length > 4 && (
+        {shows.length > 6 && (
           <div className="mt-8 text-center">
             <Button
               onClick={() => setShowAll(!showAll)}
@@ -216,7 +216,7 @@ const UpcomingShows = () => {
               ) : (
                 <>
                   <ChevronDown className="w-5 h-5 mr-2" />
-                  Visa fler shower ({shows.length - 4} till)
+                  Visa fler shower ({shows.length - 6} till)
                 </>
               )}
             </Button>
