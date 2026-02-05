@@ -51,13 +51,9 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        mustard: "hsl(var(--mustard))",
-        terracotta: "hsl(var(--terracotta))",
-        turquoise: "hsl(var(--turquoise))",
       },
       backgroundImage: {
         'bw-gradient': 'var(--bw-gradient)',
-        'sunset-gradient': 'var(--sunset-gradient)',
       },
       boxShadow: {
         'glow': 'var(--shadow-glow)',
