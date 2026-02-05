@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
+import ZigzagDivider from "@/components/ZigzagDivider";
 import UpcomingShows from "@/components/UpcomingShows";
 import Comedians from "@/components/Comedians";
 import Owners from "@/components/Owners";
@@ -16,6 +17,7 @@ const Index = () => {
       <SEOSchema />
       <Navigation />
       <Hero />
+      <ZigzagDivider />
       <UpcomingShows />
       <Comedians />
       <Owners />
