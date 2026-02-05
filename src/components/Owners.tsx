@@ -41,7 +41,7 @@ const Owners = () => {
                 
                 {/* Name overlay on image */}
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-3xl font-normal text-foreground mb-1 font-heading">Leon & Johannes</h3>
+                  <h3 className="text-5xl font-normal text-foreground mb-1 font-heading">Leon & Johannes</h3>
                   <p className="text-primary font-medium font-fnaf">Grundare</p>
                 </div>
               </div>
