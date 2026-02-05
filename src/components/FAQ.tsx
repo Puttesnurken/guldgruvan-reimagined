@@ -37,8 +37,8 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-normal text-center mb-12">
-            <span className="bg-bw-gradient bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-6xl font-normal text-center mb-12 inline-block">
+            <span className="bg-foreground text-background px-6 py-3">
               FAQ
             </span>
           </h2>
