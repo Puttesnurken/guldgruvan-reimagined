@@ -22,6 +22,7 @@ export default {
         'luemu': ['LUEMU', 'sans-serif'],
         'komigo': ['Komigo3D', 'sans-serif'],
         'mcten': ['MC Ten', 'monospace'],
+        'fnaf': ['Five Nights', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
