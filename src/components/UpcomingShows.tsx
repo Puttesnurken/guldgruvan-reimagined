@@ -1,7 +1,9 @@
-import { Calendar, Clock, MapPin, Ticket } from "lucide-react";
+import { useState } from "react";
+import { Calendar, Clock, MapPin, Ticket, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "./ui/button";
 
 const UpcomingShows = () => {
+  const [showAll, setShowAll] = useState(false);
   const shows = [
     {
       date: "5 februari 2026",
@@ -128,7 +130,7 @@ const UpcomingShows = () => {
         </div>
 
         <div className="flex flex-col gap-6 max-w-4xl mx-auto">
-          {shows.map((show, index) => (
+          {shows.slice(0, showAll ? shows.length : 4).map((show, index) => (
             <div
               key={index}
               className="animate-scale-in opacity-0"
@@ -197,6 +199,29 @@ const UpcomingShows = () => {
             </div>
           ))}
         </div>
+
+        {/* Show More/Less Button */}
+        {shows.length > 4 && (
+          <div className="mt-8 text-center">
+            <Button
+              onClick={() => setShowAll(!showAll)}
+              variant="outline"
+              className="px-8 py-6 text-lg"
+            >
+              {showAll ? (
+                <>
+                  <ChevronUp className="w-5 h-5 mr-2" />
+                  Visa färre
+                </>
+              ) : (
+                <>
+                  <ChevronDown className="w-5 h-5 mr-2" />
+                  Visa fler shower ({shows.length - 4} till)
+                </>
+              )}
+            </Button>
+          </div>
+        )}
 
         {/* Additional info */}
         <div className="mt-12 text-center animate-fade-in opacity-0" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
