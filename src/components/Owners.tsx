@@ -17,12 +17,16 @@ const Owners = () => {
         animationDelay: '0.1s',
         animationFillMode: 'forwards'
       }}>
-          <h2 className="text-5xl md:text-6xl font-normal mb-6 inline-block">
+          <h2 className="text-5xl md:text-6xl font-normal mb-2 inline-block">
             <span className="bg-foreground text-background px-6 py-3">
               Grundarna
             </span>
           </h2>
-          
+          <div>
+            <span className="bg-foreground text-background px-4 py-1 text-sm">
+              genier
+            </span>
+          </div>
         </div>
 
         <div className="max-w-2xl mx-auto">
