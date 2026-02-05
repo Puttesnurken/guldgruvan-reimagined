@@ -9,7 +9,7 @@ import davidAsp from "@/assets/david-asp-new.jpg";
 import robinBerglund from "@/assets/robin-berglund-new.jpg";
 import michelSanchez from "@/assets/michel-sanchez-new.jpg";
 import emilArvas from "@/assets/emil-arvas-new.jpg";
-import brannePavlovic from "@/assets/branne-pavlovic.jpg";
+
 import atoKarlsson from "@/assets/ato-karlsson.jpg";
 import lovisaHenriksson from "@/assets/lovisa-henriksson.jpg";
 import albinOlsson from "@/assets/albin-olsson.jpg";
@@ -58,11 +58,6 @@ const Comedians = () => {
       name: "Emil Arvas",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       image: emilArvas
-    },
-    {
-      name: "Branne Pavlovic",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      image: brannePavlovic
     },
     {
       name: "Ato Karlsson",
