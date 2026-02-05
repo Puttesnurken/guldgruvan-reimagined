@@ -2,7 +2,7 @@ import { useState } from "react";
 import ComedianCard from "./ComedianCard";
 import { Button } from "./ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import simonGardenfors from "@/assets/simon-gardenfors.png";
+import simonGardenfors from "@/assets/simon-gardenfors-new.webp";
 import wagrell from "@/assets/johanna-wagrell-new.jpg";
 import chippen from "@/assets/simon-svensson-new.jpg";
 import davidAsp from "@/assets/david-asp-new.jpg";
