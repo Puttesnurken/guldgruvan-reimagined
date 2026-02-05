@@ -1,6 +1,14 @@
 import foundersImage from "@/assets/founders.jpg";
+import venue2 from "@/assets/venue-2.jpg";
+
 const Owners = () => {
-  return <section id="owners" className="py-24 bg-background relative overflow-hidden">
+  return <section id="owners" className="py-24 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img src={venue2} alt="" className="w-full h-full object-cover opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background"></div>
+      </div>
+      
       {/* Decorative gradient overlays */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
