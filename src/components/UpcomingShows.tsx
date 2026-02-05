@@ -120,7 +120,7 @@ const UpcomingShows = () => {
           animationDelay: `${0.2 + index * 0.1}s`,
           animationFillMode: "forwards"
         }}>
-              <div className="group relative overflow-hidden rounded-none bg-card border border-border hover:outline hover:outline-2 hover:outline-primary hover:-translate-y-1 transition-all duration-300 h-full flex flex-col" style={{ boxShadow: 'none' }} onMouseEnter={(e) => e.currentTarget.style.boxShadow = '4px 4px 0px 0px hsl(var(--primary))'} onMouseLeave={(e) => e.currentTarget.style.boxShadow = 'none'}>
+              <div className="group relative overflow-hidden rounded-none bg-black border border-border hover:outline hover:outline-2 hover:outline-orange hover:-translate-y-1 transition-all duration-300 h-full flex flex-col" style={{ boxShadow: 'none' }} onMouseEnter={(e) => e.currentTarget.style.boxShadow = '4px 4px 0px 0px hsl(30, 100%, 50%)'} onMouseLeave={(e) => e.currentTarget.style.boxShadow = 'none'}>
                 {/* Header with date */}
                 <div className="bg-secondary/50 p-4 border-b border-border/50">
                   <div className="flex items-start justify-between gap-2">
@@ -152,7 +152,7 @@ const UpcomingShows = () => {
 
                   {/* Footer with button */}
                   <div className="flex items-center justify-center pt-4 border-t border-border/50 mt-4">
-                    <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full" disabled={!show.available} asChild={show.available}>
+                    <Button className="bg-orange text-orange-foreground hover:bg-orange/90 transition-all duration-300 group-hover:shadow-glow w-full font-komigo text-base tracking-wide" disabled={!show.available} asChild={show.available}>
                       {show.available ? <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
                           Köp biljett
