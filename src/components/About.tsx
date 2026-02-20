@@ -14,7 +14,7 @@ const About = () => {
             <p>
               Med vår hemliga lineup garanterar vi att varje kväll blir en överraskning fylld med skratt och kvalitet. Vi tror på att komiken ska tala för sig själv, och våra artister är handplockade för att leverera oförglömliga upplevelser.
             </p>
-            <p className="text-primary font-semibold">
+            <p className="text-primary font-medium">
               Välkommen till klubben där Sveriges bästa komiker bjuder på gratis show varje torsdag!
             </p>
           </div>

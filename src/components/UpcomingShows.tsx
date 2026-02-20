@@ -140,14 +140,14 @@ const UpcomingShows = () => {
                     <div className="flex-1">
                       <div className="flex items-center gap-2 text-primary mb-1">
                         <Calendar className="w-4 h-4" />
-                        <span className="font-bold text-base font-fnaf">{show.date}</span>
+                        <span className="font-medium text-base font-fnaf">{show.date}</span>
                       </div>
-                      <h3 className="font-bold text-foreground font-pixel text-4xl uppercase">{show.title}</h3>
+                      <h3 className="font-medium text-foreground font-pixel text-4xl uppercase">{show.title}</h3>
                     </div>
-                    {show.free && <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-bold rounded-full whitespace-nowrap animate-pulse">
+                    {show.free && <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full whitespace-nowrap animate-pulse">
                         GRATIS
                       </span>}
-                    {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
+                    {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-medium rounded-full whitespace-nowrap">
                         SLUTSÅLT
                       </span>}
                   </div>

@@ -21,7 +21,7 @@ const FAQ = () => {
     },
     {
       question: "Vilken typ av humor kan man se på Guldgruvan?",
-      answer: "Komedin har beskrivits som den nya generationens stand-up, delvis vågad och mörk men också fokuserad på kultur. Om du har sett mycket Stand-Up comedy live förut kommer du gilla showerna på Guldgruvan."
+      answer: "Humorn har beskrivits som den nya generationens stand-up, delvis vågad och mörk men också fokuserad på kultur. Om du har sett mycket Stand-Up comedy live förut kommer du gilla showerna på Guldgruvan."
     },
     {
       question: "Vilket språk är det på?",

@@ -35,7 +35,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="hover:opacity-80 transition-opacity"
           >
-            <span className="font-heading text-2xl md:text-3xl font-bold text-foreground tracking-tight">GG</span>
+            <span className="font-heading text-2xl md:text-3xl font-medium text-foreground tracking-tight">GG</span>
           </button>
 
           {/* Desktop Menu */}
@@ -84,7 +84,7 @@ const Navigation = () => {
             </button>
             <Button
               asChild
-              className="bg-bw-gradient text-primary-foreground font-semibold hover:shadow-glow transition-all"
+              className="bg-bw-gradient text-primary-foreground font-medium hover:shadow-glow transition-all"
             >
               <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                 Biljetter
@@ -149,7 +149,7 @@ const Navigation = () => {
               </button>
               <Button
                 asChild
-                className="bg-bw-gradient text-primary-foreground font-semibold hover:shadow-glow transition-all w-full"
+                className="bg-bw-gradient text-primary-foreground font-medium hover:shadow-glow transition-all w-full"
               >
                 <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                   Biljetter
