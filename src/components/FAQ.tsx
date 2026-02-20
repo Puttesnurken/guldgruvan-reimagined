@@ -8,28 +8,48 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "Hur fungerar den hemliga lineupen?",
-      answer: "Vi avslöjar aldrig i förväg vilka komiker som kommer att uppträda. Detta gör varje show till en unik överraskning och håller upplevelsen fräsch och spännande."
+      question: "Vad är Guldgruvan Standupklubb?",
+      answer: "Guldgruvan är en Stand-Up Comedy klubb som finns i Stockholm och Malmö."
+    },
+    {
+      question: "När och var?",
+      answer: "Guldgruvan kör varje torsdag i Stockholm i källaren på Restaurang La Cucaracha, Bondegatan 2 vid Medborgarplatsen i Stockholm. I Malmö är det varanna torsdag i källaren på Pizzeria Rex, Nobelvägen 107, Malmö."
     },
     {
       question: "Kostar det något?",
-      answer: "Nej! Från och med 5 mars 2026 är Guldgruvan helt gratis. Kom bara förbi och njut av showen!"
+      answer: "Nej! Guldgruvan är helt gratis. Kom bara förbi och njut av showen!"
     },
     {
-      question: "Vilken är åldersgränsen?",
-      answer: "Guldgruvan har 18 års åldersgräns. Var vänlig att ta med giltig legitimation."
+      question: "Vilken typ av humor kan man se på Guldgruvan?",
+      answer: "Komedin har beskrivits som den nya generationens stand-up, delvis vågad och mörk men också fokuserad på kultur. Om du har sett mycket Stand-Up comedy live förut kommer du gilla showerna på Guldgruvan."
     },
     {
-      question: "Hur lång är showen?",
-      answer: "En typisk show på Guldgruvan varar cirka 2 timmar inklusive paus."
+      question: "Vilket språk är det på?",
+      answer: "Showerna är på svenska men komiker som uppträder på engelska uppträder ofta på Guldgruvan."
     },
     {
-      question: "Serveras mat och dryck?",
-      answer: "Ja, vi har ett fullt utrustat barområde där du kan köpa dryck och snacks före showen och under pausen."
+      question: "Är det grov komedi?",
+      answer: "Det är väldigt blandat och beror mycket på vilken kväll man besöker Guldgruvan. Publiken på Guldgruvan brukar gilla grov humor vilket gör att komiker säger saker de inte gör på någon annan klubb i Sverige."
     },
     {
-      question: "Var ligger klubben?",
-      answer: "Kontakta oss via våra sociala medier eller e-post för information om platsen och vägbeskrivning."
+      question: "Vilka kan man se på Guldgruvan?",
+      answer: "Vilka som uppträder på Guldgruvan kommer alltid vara hemliga men namn som Leon Jämtin, David Asp, Christoffer Nyqvist, Johannes Brenning, Sinthujha VK, Lovisa Hendriksson, Simon Gärdenfors och Anton Estby uppträder ofta."
+    },
+    {
+      question: "Vad kan jag förvänta mig av showen?",
+      answer: "Du kan förvänta dig att ha roligt och skratta väldigt mycket."
+    },
+    {
+      question: "Vilken typ av komiker får man se på Guldgruvan?",
+      answer: "På Guldgruvan uppträder bara komiker som regelbundet uppträder för en betalande publik. Guldgruvan är inte en klubb för helt nya komiker."
+    },
+    {
+      question: "Vad har tidigare besökare sagt om Guldgruvan?",
+      answer: "På Abundo har en användare skrivit: \"Fantastiskt bra standup i en grym lokal med äkta Comedy Cellar-känsla. Lite 'acquired taste' dock, om du inte gillar Specialisterna kanske det inte är något för dig.\""
+    },
+    {
+      question: "Kan jag kolla in Guldgruvans komedi först?",
+      answer: "Ja! Komiker som tidigare har stått på Guldgruvans scen syns bland annat i vår komiker-sektion här på sidan."
     }
   ];
 
