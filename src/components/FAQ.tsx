@@ -13,7 +13,7 @@ const FAQ = () => {
     },
     {
       question: "När och var?",
-      answer: "Guldgruvan kör varje torsdag i Stockholm i källaren på Restaurang La Cucaracha, Bondegatan 2 vid Medborgarplatsen i Stockholm. I Malmö är det varanna torsdag i källaren på Pizzeria Rex, Nobelvägen 107, Malmö."
+      answer: "Guldgruvan kör varje torsdag på Sofia Common, Bondegatan 57 i Stockholm."
     },
     {
       question: "Kostar det något?",

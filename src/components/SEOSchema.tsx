@@ -31,9 +31,9 @@ const SEOSchema = () => {
       "name": "Sofia Common",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Wollmar Yxkullsgatan 15",
+        "streetAddress": "Bondegatan 57",
         "addressLocality": "Stockholm",
-        "postalCode": "118 50",
+        "postalCode": "116 35",
         "addressCountry": "SE"
       }
     },
@@ -63,9 +63,9 @@ const SEOSchema = () => {
     "description": "Stockholms bästa standupklubb med hemlig lineup varje torsdag på Södermalm. Gratis inträde från mars 2026!",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Wollmar Yxkullsgatan 15",
+      "streetAddress": "Bondegatan 57",
       "addressLocality": "Stockholm",
-      "postalCode": "118 50",
+      "postalCode": "116 35",
       "addressCountry": "SE"
     }
   };
@@ -78,9 +78,9 @@ const SEOSchema = () => {
     "url": "https://guldgruvan.lovable.app",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Wollmar Yxkullsgatan 15",
+      "streetAddress": "Bondegatan 57",
       "addressLocality": "Stockholm",
-      "postalCode": "118 50",
+      "postalCode": "116 35",
       "addressCountry": "SE"
     },
     "geo": {

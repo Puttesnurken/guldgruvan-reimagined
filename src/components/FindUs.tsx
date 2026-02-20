@@ -39,8 +39,8 @@ const FindUs = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Adress</h4>
                     <p className="text-muted-foreground">Sofia Common</p>
-                    <p className="text-muted-foreground">Wollmar Yxkullsgatan 15</p>
-                    <p className="text-muted-foreground">118 50 Stockholm</p>
+                    <p className="text-muted-foreground">Bondegatan 57</p>
+                    <p className="text-muted-foreground">116 35 Stockholm</p>
                   </div>
                 </div>
 
@@ -95,7 +95,7 @@ const FindUs = () => {
             <div className="mt-6 bg-secondary/50 border border-border/50 rounded-lg p-6">
               <h4 className="font-semibold text-foreground mb-3">Hitta hit</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Vi håller till på Sofia Common på Södermalm. Närmaste tunnelbanestation är Medborgarplatsen 
+                Vi håller till på Sofia Common, Bondegatan 57 på Södermalm. Närmaste tunnelbanestation är Medborgarplatsen 
                 (Röda och Gröna linjen), ca 5 minuters promenad. Det finns även god tillgång till busshållplatser i närheten.
               </p>
             </div>
