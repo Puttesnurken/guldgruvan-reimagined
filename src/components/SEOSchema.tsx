@@ -60,7 +60,7 @@ const SEOSchema = () => {
     "@type": "Organization",
     "name": "Guldgruvan Comedyklubb",
     "url": "https://guldgruvan.lovable.app",
-    "description": "Stockholms bästa standupklubb med hemlig lineup varje torsdag på Södermalm",
+    "description": "Stockholms bästa standupklubb med hemlig lineup varje torsdag på Södermalm. Gratis inträde från mars 2026!",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Wollmar Yxkullsgatan 15",
@@ -74,7 +74,7 @@ const SEOSchema = () => {
     "@context": "https://schema.org",
     "@type": "EntertainmentBusiness",
     "name": "Guldgruvan Comedyklubb",
-    "description": "Stockholms bästa standupklubb med hemlig lineup. Sveriges roligaste komiker varje torsdag.",
+    "description": "Stockholms bästa standupklubb med hemlig lineup. Sveriges roligaste komiker varje torsdag. Gratis inträde!",
     "url": "https://guldgruvan.lovable.app",
     "address": {
       "@type": "PostalAddress",
