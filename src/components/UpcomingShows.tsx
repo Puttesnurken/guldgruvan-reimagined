@@ -36,64 +36,73 @@ const UpcomingShows = () => {
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1224613272",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "12 mars 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1950248950",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "19 mars 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1314808768",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "26 mars 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/721297055",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "2 april 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1758059035",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "9 april 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/330404075",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "16 april 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/571843336",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "23 april 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1866004518",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }, {
     date: "30 april 2026",
     time: "20:00",
     title: "Guldgruvan ",
     location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/2076887578",
-    available: true
+    ticketUrl: "",
+    available: true,
+    free: true
   }];
   return <section id="shows" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
@@ -156,8 +165,11 @@ const UpcomingShows = () => {
 
                   {/* Footer with button */}
                   <div className="flex items-center justify-center pt-4 border-t border-border/50 mt-4">
-                    <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full font-nabla text-lg" disabled={!show.available} asChild={show.available}>
-                      {show.available ? <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
+                    <Button className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full font-nabla text-lg" disabled={!show.available || show.free} asChild={show.available && !show.free}>
+                      {show.free ? <>
+                          <Ticket className="w-4 h-4 mr-2" />
+                          Gratis inträde
+                        </> : show.available ? <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
                           Köp biljett
                         </a> : <>
