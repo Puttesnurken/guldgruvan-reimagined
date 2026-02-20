@@ -12,8 +12,8 @@ const FAQ = () => {
       answer: "Vi avslöjar aldrig i förväg vilka komiker som kommer att uppträda. Detta gör varje show till en unik överraskning och håller upplevelsen fräsch och spännande."
     },
     {
-      question: "Hur köper jag biljetter?",
-      answer: "Biljetter köps enkelt via Ticketmaster. Klicka på Biljetter-knappen här på sidan så kommer du direkt till biljettsidan."
+      question: "Kostar det något?",
+      answer: "Nej! Från och med 5 mars 2026 är Guldgruvan helt gratis. Kom bara förbi och njut av showen!"
     },
     {
       question: "Vilken är åldersgränsen?",
