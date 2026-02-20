@@ -4,14 +4,14 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-4">GULDGRUVAN</h3>
+            <h3 className="text-2xl font-medium text-primary mb-4">GULDGRUVAN</h3>
             <p className="text-foreground">
               Sveriges bästa stand-up klubb med hemlig lineup
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Snabblänkar</h4>
+            <h4 className="font-medium text-foreground mb-4">Snabblänkar</h4>
             <ul className="space-y-2">
               <li>
                 <button
@@ -49,12 +49,12 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Biljetter</h4>
+            <h4 className="font-medium text-foreground mb-4">Biljetter</h4>
             <a
               href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-bw-gradient text-primary-foreground font-semibold px-6 py-2 rounded-lg hover:shadow-glow transition-all"
+              className="inline-block bg-bw-gradient text-primary-foreground font-medium px-6 py-2 rounded-lg hover:shadow-glow transition-all"
             >
               Köp via Ticketmaster
             </a>

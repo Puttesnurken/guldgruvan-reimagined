@@ -50,7 +50,7 @@ const FindUs = () => {
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Tider</h4>
+                    <h4 className="font-medium text-foreground mb-1">Tider</h4>
                     <p className="text-muted-foreground">Torsdagar: 20:00 (dörrarna öppnar 19:30)</p>
                   </div>
                 </div>

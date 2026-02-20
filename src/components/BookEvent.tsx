@@ -22,7 +22,7 @@ const BookEvent = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <Card className="border-border bg-card hover:shadow-elevation-high transition-all duration-500">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-primary mb-6">Vad ingår?</h3>
+              <h3 className="text-2xl font-medium text-primary mb-6">Vad ingår?</h3>
               <ul className="space-y-4 text-muted-foreground">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1">✓</span>
@@ -50,7 +50,7 @@ const BookEvent = () => {
 
           <Card className="border-border bg-card hover:shadow-elevation-high transition-all duration-500">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-primary mb-6">Kontakt</h3>
+              <h3 className="text-2xl font-medium text-primary mb-6">Kontakt</h3>
               <div className="space-y-6">
                 
                 <div className="space-y-4 text-muted-foreground">
