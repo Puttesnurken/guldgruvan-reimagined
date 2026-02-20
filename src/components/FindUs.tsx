@@ -28,7 +28,7 @@ const FindUs = () => {
             style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
           >
             <div className="bg-card border border-border rounded-lg p-8 hover:shadow-elevation-medium transition-all duration-500">
-              <h3 className="text-2xl font-bold text-foreground mb-6">Kontaktinformation</h3>
+              <h3 className="text-2xl font-medium text-foreground mb-6">Kontaktinformation</h3>
               
               <div className="space-y-6">
                 {/* Address */}
@@ -37,7 +37,7 @@ const FindUs = () => {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Adress</h4>
+                    <h4 className="font-medium text-foreground mb-1">Adress</h4>
                     <p className="text-muted-foreground">Sofia Common</p>
                     <p className="text-muted-foreground">Bondegatan 57</p>
                     <p className="text-muted-foreground">116 34 Stockholm</p>
@@ -50,7 +50,7 @@ const FindUs = () => {
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Öppettider</h4>
+                    <h4 className="font-semibold text-foreground mb-1">Tider</h4>
                     <p className="text-muted-foreground">Torsdagar: 20:00 (dörrarna öppnar 19:30)</p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const FindUs = () => {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
+                    <h4 className="font-medium text-foreground mb-1">Telefon</h4>
                     <a href="tel:+46701234567" className="text-muted-foreground hover:text-primary transition-colors">
                       +46 70 123 45 67
                     </a>
@@ -74,7 +74,7 @@ const FindUs = () => {
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">E-post</h4>
+                    <h4 className="font-medium text-foreground mb-1">E-post</h4>
                     <a href="mailto:info@guldgruvan.se" className="text-muted-foreground hover:text-primary transition-colors">
                       info@guldgruvan.se
                     </a>
@@ -93,7 +93,7 @@ const FindUs = () => {
 
             {/* Additional Info */}
             <div className="mt-6 bg-secondary/50 border border-border/50 rounded-lg p-6">
-              <h4 className="font-semibold text-foreground mb-3">Hitta hit</h4>
+              <h4 className="font-medium text-foreground mb-3">Hitta hit</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Vi håller till på Sofia Common, Bondegatan 57 på Södermalm. Närmaste tunnelbanestation är Medborgarplatsen 
                 (Röda och Gröna linjen), ca 5 minuters promenad. Det finns även god tillgång till busshållplatser i närheten.
@@ -127,7 +127,7 @@ const FindUs = () => {
         {/* Parking Info */}
         <div className="mt-12 max-w-6xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>
           <div className="bg-card border border-border rounded-lg p-6 text-center">
-            <h4 className="font-semibold text-foreground mb-2">Parkering</h4>
+            <h4 className="font-medium text-foreground mb-2">Parkering</h4>
             <p className="text-muted-foreground">
               Det finns flera parkeringsgarage i närområdet. Närmast ligger Medborgarplatsen Parkering, ca 3 minuters promenad från klubben.
             </p>
