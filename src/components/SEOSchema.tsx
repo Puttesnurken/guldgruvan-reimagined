@@ -46,7 +46,8 @@ const SEOSchema = () => {
       "@type": "Offer",
       "url": show.url,
       "availability": "https://schema.org/InStock",
-      "priceCurrency": "SEK"
+      "priceCurrency": "SEK",
+      ...(show.date >= "2026-03-05" ? { "price": "0" } : {})
     },
     "performer": {
       "@type": "PerformingGroup",
