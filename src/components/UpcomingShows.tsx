@@ -144,6 +144,9 @@ const UpcomingShows = () => {
                       </div>
                       <h3 className="font-bold text-foreground font-pixel text-4xl uppercase">{show.title}</h3>
                     </div>
+                    {show.free && <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-bold rounded-full whitespace-nowrap animate-pulse">
+                        GRATIS
+                      </span>}
                     {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-bold rounded-full whitespace-nowrap">
                         SLUTSÅLT
                       </span>}
