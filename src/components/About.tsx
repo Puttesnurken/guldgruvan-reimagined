@@ -9,13 +9,13 @@ const About = () => {
           </h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
-              Guldgruvan är Sveriges mest intima och professionella stand-up klubb där vi presenterar landets vassaste komiker i en unik atmosfär.
+              Guldgruvan är en stört rolig och lite annorlunda klubb. Vi försöker gynna den växande alternativa ståupp-komedin i Sverige med komiker som skiljer sig från dom vanliga komikerna.
             </p>
             <p>
-              Med vår hemliga lineup garanterar vi att varje kväll blir en överraskning fylld med skratt och kvalitet. Vi tror på att komiken ska tala för sig själv, och våra artister är handplockade för att leverera oförglömliga upplevelser.
+              Vi kör alltid hemlig lineup, dels på grund av att Guldgruvan är en "helhetsupplevelse" – ett ord vi uppfunnit. Man kommer hit för att uppleva klubben och inte en viss komiker i sig. En annan anledning är att etablerade kändisar ofta kommer till oss för att testa material i hemlighet.
             </p>
             <p className="text-primary font-medium">
-              Välkommen till klubben där Sveriges bästa komiker bjuder på gratis show varje torsdag!
+              Välkommen till Sveriges mest unika gratisklubb.
             </p>
           </div>
         </div>
