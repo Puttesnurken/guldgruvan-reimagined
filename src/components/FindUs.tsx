@@ -40,7 +40,7 @@ const FindUs = () => {
                     <h4 className="font-semibold text-foreground mb-1">Adress</h4>
                     <p className="text-muted-foreground">Sofia Common</p>
                     <p className="text-muted-foreground">Bondegatan 57</p>
-                    <p className="text-muted-foreground">116 35 Stockholm</p>
+                    <p className="text-muted-foreground">116 34 Stockholm</p>
                   </div>
                 </div>
 
