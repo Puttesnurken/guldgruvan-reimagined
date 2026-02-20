@@ -33,7 +33,7 @@ const SEOSchema = () => {
         "@type": "PostalAddress",
         "streetAddress": "Bondegatan 57",
         "addressLocality": "Stockholm",
-        "postalCode": "116 35",
+        "postalCode": "116 34",
         "addressCountry": "SE"
       }
     },
@@ -65,7 +65,7 @@ const SEOSchema = () => {
       "@type": "PostalAddress",
       "streetAddress": "Bondegatan 57",
       "addressLocality": "Stockholm",
-      "postalCode": "116 35",
+      "postalCode": "116 34",
       "addressCountry": "SE"
     }
   };
@@ -80,7 +80,7 @@ const SEOSchema = () => {
       "@type": "PostalAddress",
       "streetAddress": "Bondegatan 57",
       "addressLocality": "Stockholm",
-      "postalCode": "116 35",
+      "postalCode": "116 34",
       "addressCountry": "SE"
     },
     "geo": {
