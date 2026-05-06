@@ -11,7 +11,26 @@ const UpcomingShows = () => {
     ticketUrl: string;
     available: boolean;
     free?: boolean;
-  }[] = [];
+  }[] = [
+    {
+      date: "21 Maj 2026",
+      time: "20:00",
+      title: "ADHD-Special",
+      location: "Sofia Common, Bondegatan 57 · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+    {
+      date: "28 Maj 2026",
+      time: "20:00",
+      title: "Stockholm-Special",
+      location: "Sofia Common, Bondegatan 57 · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+  ];
   return <section id="shows" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
