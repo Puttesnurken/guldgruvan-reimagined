@@ -3,107 +3,15 @@ import { Calendar, Clock, MapPin, Ticket, ChevronDown, ChevronUp } from "lucide-
 import { Button } from "./ui/button";
 const UpcomingShows = () => {
   const [showAll, setShowAll] = useState(false);
-  const shows = [{
-    date: "5 februari 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/661949754",
-    available: true
-  }, {
-    date: "12 februari 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1776329424",
-    available: true
-  }, {
-    date: "19 februari 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/599797920",
-    available: true
-  }, {
-    date: "26 februari 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1864001394",
-    available: true
-  }, {
-    date: "5 mars 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "12 mars 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "19 mars 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "26 mars 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "2 april 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "9 april 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "16 april 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "23 april 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }, {
-    date: "30 april 2026",
-    time: "20:00",
-    title: "Guldgruvan ",
-    location: "Sofia Common, Stockholm",
-    ticketUrl: "",
-    available: true,
-    free: true
-  }];
+  const shows: {
+    date: string;
+    time: string;
+    title: string;
+    location: string;
+    ticketUrl: string;
+    available: boolean;
+    free?: boolean;
+  }[] = [];
   return <section id="shows" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" />

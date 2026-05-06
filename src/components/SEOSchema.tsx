@@ -1,21 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const SEOSchema = () => {
-  const shows = [
-    { date: "2026-02-05", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/661949754" },
-    { date: "2026-02-12", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1776329424" },
-    { date: "2026-02-19", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/599797920" },
-    { date: "2026-02-26", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1864001394" },
-    { date: "2026-03-05", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1224613272" },
-    { date: "2026-03-12", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1950248950" },
-    { date: "2026-03-19", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1314808768" },
-    { date: "2026-03-26", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/721297055" },
-    { date: "2026-04-02", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1758059035" },
-    { date: "2026-04-09", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/330404075" },
-    { date: "2026-04-16", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/571843336" },
-    { date: "2026-04-23", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/1866004518" },
-    { date: "2026-04-30", name: "Guldgruvan Comedyklubb", url: "https://www.ticketmaster.se/event/guldgruvan-comedyklubb-biljetter/2076887578" },
-  ];
+  const shows: { date: string; name: string; url: string }[] = [];
 
   const eventSchema = shows.map((show) => ({
     "@context": "https://schema.org",
