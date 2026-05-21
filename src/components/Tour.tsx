@@ -9,28 +9,28 @@ const Tour = () => {
       date: "14 Juli 2026",
       time: "20:00",
       title: "Göteborg",
-      location: "Haket · Garanterad sittplats 30kr",
+      location: "Haket · Biljett 250 kr",
       ticketUrl: "",
       available: true,
-      free: true,
+      price: 250,
     },
     {
       date: "15 Juli 2026",
       time: "20:00",
       title: "Växjö",
-      location: "Kafe de Luxe · Garanterad sittplats 30kr",
+      location: "Kafe de Luxe · Biljett 220 kr",
       ticketUrl: "",
       available: true,
-      free: true,
+      price: 220,
     },
     {
       date: "16 Juli 2026",
       time: "20:00",
       title: "Malmö",
-      location: "Rex Pizzeria · Garanterad sittplats 30kr",
+      location: "Rex Pizzeria · Biljett 220 kr",
       ticketUrl: "",
       available: true,
-      free: true,
+      price: 220,
     },
   ];
   return (
@@ -74,9 +74,9 @@ const Tour = () => {
                       </div>
                       <h3 className="font-medium text-foreground font-pixel text-4xl uppercase">{show.title}</h3>
                     </div>
-                    {show.free && (
+                    {show.price && (
                       <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full whitespace-nowrap animate-pulse">
-                        GRATIS
+                        {show.price} kr
                       </span>
                     )}
                     {!show.available && (
@@ -105,10 +105,10 @@ const Tour = () => {
                       disabled={!show.available}
                       asChild={show.available}
                     >
-                      {show.free ? (
+                      {show.price ? (
                         <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
-                          Garanterad sittplats
+                          Biljett {show.price} kr
                         </a>
                       ) : show.available ? (
                         <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
