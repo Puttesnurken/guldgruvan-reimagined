@@ -4,15 +4,35 @@ import { Button } from "./ui/button";
 
 const Tour = () => {
   const [showAll, setShowAll] = useState(false);
-  const shows: {
-    date: string;
-    time: string;
-    title: string;
-    location: string;
-    ticketUrl: string;
-    available: boolean;
-    free?: boolean;
-  }[] = [];
+  const shows = [
+    {
+      date: "14 Juli 2026",
+      time: "20:00",
+      title: "Goteborg",
+      location: "Haket · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+    {
+      date: "15 Juli 2026",
+      time: "20:00",
+      title: "Vaxjo",
+      location: "Kafe de Luxe · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+    {
+      date: "16 Juli 2026",
+      time: "20:00",
+      title: "Malmo",
+      location: "Rex Pizzeria · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+  ];
   return (
     <section id="tour" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
