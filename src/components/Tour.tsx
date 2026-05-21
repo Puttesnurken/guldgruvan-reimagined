@@ -8,7 +8,7 @@ const Tour = () => {
     {
       date: "14 Juli 2026",
       time: "20:00",
-      title: "Goteborg",
+      title: "Göteborg",
       location: "Haket · Garanterad sittplats 30kr",
       ticketUrl: "",
       available: true,
