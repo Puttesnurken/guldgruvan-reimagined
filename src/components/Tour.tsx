@@ -74,9 +74,9 @@ const Tour = () => {
                       </div>
                       <h3 className="font-medium text-foreground font-pixel text-4xl uppercase">{show.title}</h3>
                     </div>
-                    {show.free && (
+                    {show.price && (
                       <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full whitespace-nowrap animate-pulse">
-                        GRATIS
+                        {show.price} kr
                       </span>
                     )}
                     {!show.available && (
