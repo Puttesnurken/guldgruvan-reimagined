@@ -26,8 +26,8 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-normal mb-6 animate-fade-in">
-          <span className="bg-bw-gradient bg-clip-text text-transparent mx-0 font-normal text-9xl">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-pixel mb-6 animate-fade-in">
+          <span className="bg-bw-gradient bg-clip-text text-transparent mx-0 font-pixel text-8xl md:text-9xl">
             GULDGRUVAN
           </span>
         </h1>
