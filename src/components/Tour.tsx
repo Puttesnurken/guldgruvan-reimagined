@@ -4,15 +4,35 @@ import { Button } from "./ui/button";
 
 const Tour = () => {
   const [showAll, setShowAll] = useState(false);
-  const shows: {
-    date: string;
-    time: string;
-    title: string;
-    location: string;
-    ticketUrl: string;
-    available: boolean;
-    free?: boolean;
-  }[] = [];
+  const shows = [
+    {
+      date: "14 Juli 2026",
+      time: "20:00",
+      title: "Göteborg",
+      location: "Haket · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+    {
+      date: "15 Juli 2026",
+      time: "20:00",
+      title: "Växjö",
+      location: "Kafe de Luxe · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+    {
+      date: "16 Juli 2026",
+      time: "20:00",
+      title: "Malmö",
+      location: "Rex Pizzeria · Garanterad sittplats 30kr",
+      ticketUrl: "",
+      available: true,
+      free: true,
+    },
+  ];
   return (
     <section id="tour" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
@@ -32,7 +52,7 @@ const Tour = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto font-extralight text-4xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto font-extralight text-4xl justify-items-center">
           {shows.slice(0, showAll ? shows.length : 6).map((show, index) => (
             <div
               key={index}
@@ -82,14 +102,14 @@ const Tour = () => {
                   <div className="flex items-center justify-center pt-4 border-t border-border/50 mt-4">
                     <Button
                       className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full font-nabla text-lg"
-                      disabled={!show.available || show.free}
-                      asChild={show.available && !show.free}
+                      disabled={!show.available}
+                      asChild={show.available}
                     >
                       {show.free ? (
-                        <>
+                        <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
-                          Gratis inträde
-                        </>
+                          Garanterad sittplats
+                        </a>
                       ) : show.available ? (
                         <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
