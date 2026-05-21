@@ -102,14 +102,14 @@ const Tour = () => {
                   <div className="flex items-center justify-center pt-4 border-t border-border/50 mt-4">
                     <Button
                       className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group-hover:shadow-glow w-full font-nabla text-lg"
-                      disabled={!show.available || show.free}
-                      asChild={show.available && !show.free}
+                      disabled={!show.available}
+                      asChild={show.available}
                     >
                       {show.free ? (
-                        <>
+                        <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
-                          Gratis inträde
-                        </>
+                          Garanterad sittplats
+                        </a>
                       ) : show.available ? (
                         <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
