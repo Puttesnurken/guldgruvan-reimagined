@@ -17,7 +17,7 @@ const Tour = () => {
     {
       date: "15 Juli 2026",
       time: "20:00",
-      title: "Vaxjo",
+      title: "Växjö",
       location: "Kafe de Luxe · Garanterad sittplats 30kr",
       ticketUrl: "",
       available: true,
@@ -26,7 +26,7 @@ const Tour = () => {
     {
       date: "16 Juli 2026",
       time: "20:00",
-      title: "Malmo",
+      title: "Malmö",
       location: "Rex Pizzeria · Garanterad sittplats 30kr",
       ticketUrl: "",
       available: true,
