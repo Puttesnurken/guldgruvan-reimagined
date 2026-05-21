@@ -105,10 +105,10 @@ const Tour = () => {
                       disabled={!show.available}
                       asChild={show.available}
                     >
-                      {show.free ? (
+                      {show.price ? (
                         <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
                           <Ticket className="w-4 h-4 mr-2" />
-                          Garanterad sittplats
+                          Biljett {show.price} kr
                         </a>
                       ) : show.available ? (
                         <a href={show.ticketUrl} target="_blank" rel="noopener noreferrer">
