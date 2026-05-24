@@ -26,8 +26,8 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-pixel mb-6 animate-fade-in">
-          <span className="bg-bw-gradient bg-clip-text text-transparent mx-0 font-pixel text-8xl md:text-9xl">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading mb-6 animate-fade-in">
+          <span className="bg-bw-gradient bg-clip-text text-transparent mx-0 font-heading text-8xl md:text-9xl">
             GULDGRUVAN
           </span>
         </h1>
@@ -45,6 +45,11 @@ const Hero = () => {
           <Button asChild size="lg" className="rounded-none bg-bw-gradient text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2 border-2 border-primary" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
             <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
               Köp Biljetter
+            </a>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="rounded-none border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
+            <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
+              Turnébiljetter
             </a>
           </Button>
           <Button size="lg" variant="outline" className="rounded-none border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'} onClick={() => {
