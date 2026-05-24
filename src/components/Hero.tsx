@@ -38,27 +38,29 @@ const Hero = () => {
           Sveriges coolaste klubb
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up opacity-0" style={{
+        <div className="flex flex-col items-center gap-4 animate-fade-in-up opacity-0" style={{
         animationDelay: "0.6s",
         animationFillMode: "forwards"
       }}>
-          <Button asChild size="lg" className="rounded-none bg-bw-gradient text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2 border-2 border-primary" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
-            <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
-              Köp Biljetter
-            </a>
-          </Button>
-          <Button asChild size="lg" variant="outline" className="rounded-none border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center w-full">
+            <Button asChild size="lg" className="rounded-none bg-bw-gradient text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2 border-2 border-primary" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
+              <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
+                Köp Biljetter
+              </a>
+            </Button>
+            <Button size="lg" variant="outline" className="rounded-none border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'} onClick={() => {
+            const element = document.getElementById("comedians");
+            element?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}>
+              Se Komiker
+            </Button>
+          </div>
+          <Button asChild size="lg" className="rounded-none bg-red-600 text-white hover:bg-red-700 font-medium text-xl px-12 py-6 transition-all duration-300 hover:-translate-y-2 border-2 border-red-600 min-w-[280px]" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px rgb(220 38 38)'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
             <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
-              Turnébiljetter
+              Sverigeturne
             </a>
-          </Button>
-          <Button size="lg" variant="outline" className="rounded-none border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium text-lg px-8 transition-all duration-300 hover:-translate-y-2" style={{ boxShadow: 'none' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px hsl(var(--primary))'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'} onClick={() => {
-          const element = document.getElementById("comedians");
-          element?.scrollIntoView({
-            behavior: "smooth"
-          });
-        }}>
-            Se Komiker
           </Button>
         </div>
       </div>
