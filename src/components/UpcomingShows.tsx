@@ -15,30 +15,12 @@ const UpcomingShows = () => {
   {
     date: "11 Juli 2026",
     time: "20:00",
-    title: "SOMMAR SPECIAL",
+    title: "SOMMAR-SPECIAL",
     location: "Sofia Common, Bondegatan 57 · 150kr",
     ticketUrl: "https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633",
     available: true,
     free: false,
   },
-  {
-    date: "21 Maj 2026",
-    time: "20:00",
-    title: "ADHD-Special",
-    location: "Sofia Common, Bondegatan 57 · Garanterad sittplats 30kr",
-    ticketUrl: "",
-    available: true,
-    free: true,
-  },
-    {
-      date: "28 Maj 2026",
-      time: "20:00",
-      title: "Stockholm-Special",
-      location: "Sofia Common, Bondegatan 57 · Garanterad sittplats 30kr",
-      ticketUrl: "",
-      available: true,
-      free: true,
-    },
   ];
   return <section id="shows" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
