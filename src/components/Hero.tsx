@@ -57,11 +57,6 @@ const Hero = () => {
               Se Komiker
             </Button>
           </div>
-          <Button asChild size="lg" className="rounded-none bg-red-600 text-white hover:bg-red-700 font-medium text-xl px-12 py-6 transition-all duration-300 hover:-translate-y-2 min-w-[280px] uppercase" style={{ boxShadow: 'none', clipPath: 'polygon(2% 8%, 6% 0%, 11% 6%, 17% 2%, 23% 9%, 29% 1%, 35% 7%, 42% 0%, 48% 8%, 55% 2%, 62% 9%, 69% 1%, 76% 7%, 83% 0%, 89% 8%, 95% 2%, 100% 9%, 98% 22%, 100% 36%, 97% 50%, 100% 64%, 96% 78%, 100% 92%, 94% 100%, 87% 96%, 80% 100%, 72% 95%, 64% 100%, 56% 96%, 48% 100%, 40% 95%, 32% 100%, 24% 96%, 16% 100%, 9% 95%, 3% 100%, 0% 88%, 3% 74%, 0% 60%, 4% 46%, 0% 32%, 3% 18%)' }} onMouseEnter={e => e.currentTarget.style.boxShadow = '8px 8px 0px 0px rgb(220 38 38)'} onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}>
-            <a href="https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
-              SVERIGETURNE
-            </a>
-          </Button>
         </div>
       </div>
 
