@@ -12,15 +12,24 @@ const UpcomingShows = () => {
     available: boolean;
     free?: boolean;
   }[] = [
-    {
-      date: "21 Maj 2026",
-      time: "20:00",
-      title: "ADHD-Special",
-      location: "Sofia Common, Bondegatan 57 · Garanterad sittplats 30kr",
-      ticketUrl: "",
-      available: true,
-      free: true,
-    },
+  {
+    date: "11 Juli 2026",
+    time: "20:00",
+    title: "SOMMAR SPECIAL",
+    location: "Sofia Common, Bondegatan 57 · 150kr",
+    ticketUrl: "https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633",
+    available: true,
+    free: false,
+  },
+  {
+    date: "21 Maj 2026",
+    time: "20:00",
+    title: "ADHD-Special",
+    location: "Sofia Common, Bondegatan 57 · Garanterad sittplats 30kr",
+    ticketUrl: "",
+    available: true,
+    free: true,
+  },
     {
       date: "28 Maj 2026",
       time: "20:00",
