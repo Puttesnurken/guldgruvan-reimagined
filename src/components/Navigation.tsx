@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -82,14 +82,6 @@ const Navigation = () => {
             >
               FAQ
             </button>
-            <Button
-              asChild
-              className="bg-bw-gradient text-primary-foreground font-medium hover:shadow-glow transition-all"
-            >
-              <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
-                Biljetter
-              </a>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -147,14 +139,6 @@ const Navigation = () => {
               >
                 FAQ
               </button>
-              <Button
-                asChild
-                className="bg-bw-gradient text-primary-foreground font-medium hover:shadow-glow transition-all w-full"
-              >
-                <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
-                  Biljetter
-                </a>
-              </Button>
             </div>
           </div>
         )}
