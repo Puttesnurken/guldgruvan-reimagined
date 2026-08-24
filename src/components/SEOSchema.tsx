@@ -17,7 +17,6 @@ const SEOSchema = () => {
     { date: "2026-12-10", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
     { date: "2026-12-17", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" }
   ];
-  ];
 
   const eventSchema = shows.map((show) => ({
     "@context": "https://schema.org",
