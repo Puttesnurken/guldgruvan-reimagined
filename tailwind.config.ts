@@ -18,7 +18,7 @@ export default {
         'body': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
         'sans': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
         'mono': ['Hasubi Mono', 'monospace'],
-        'pixel': ['"Press Start 2P"', 'Pixel04B30', 'monospace'],
+        'pixel': ['"Pixelify Sans"', '"Press Start 2P"', 'Pixel04B30', 'monospace'],
         'luemu': ['LUEMU', 'sans-serif'],
         'komigo': ['Komigo3D', 'sans-serif'],
         'mcten': ['MC Ten', 'monospace'],
