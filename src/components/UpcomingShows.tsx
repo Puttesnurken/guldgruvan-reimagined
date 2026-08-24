@@ -161,6 +161,12 @@ const UpcomingShows = () => {
           </div>
         </div>
 
+        <div className="max-w-2xl mx-auto text-center mb-12 animate-fade-in opacity-0" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
+          <p className="text-lg text-foreground bg-primary/10 border border-primary/20 px-6 py-4">
+            Alla våra torsdagsklubbar är helt gratis. Vill du ha en garanterad sittplats kan du boka den för endast 50 kronor.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto font-extralight text-4xl justify-items-center">
           {shows.slice(0, showAll ? shows.length : 6).map((show, index) => <div key={index} className="animate-scale-in opacity-0 w-full" style={{
           animationDelay: `${0.2 + index * 0.1}s`,
