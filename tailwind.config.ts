@@ -15,8 +15,8 @@ export default {
     extend: {
       fontFamily: {
         'heading': ['GTL001', 'Orbitron', 'sans-serif'],
-        'body': ['Fjalla One', 'sans-serif'],
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'body': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        'sans': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
         'mono': ['Hasubi Mono', 'monospace'],
         'pixel': ['"Press Start 2P"', 'Pixel04B30', 'monospace'],
         'luemu': ['LUEMU', 'sans-serif'],
