@@ -1,7 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import UpcomingShows from "@/components/UpcomingShows";
-import Tour from "@/components/Tour";
 import Comedians from "@/components/Comedians";
 import Owners from "@/components/Owners";
 import About from "@/components/About";
@@ -16,7 +15,6 @@ const Index = () => {
       <Navigation />
       <Hero />
       <UpcomingShows />
-      <Tour />
       <Comedians />
       <Owners />
       <About />
