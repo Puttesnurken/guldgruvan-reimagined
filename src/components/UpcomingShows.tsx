@@ -183,7 +183,7 @@ const UpcomingShows = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium text-base font-fnaf">{show.date}</span>
                       </div>
-                      <h3 className="font-medium text-foreground font-pixel text-4xl uppercase break-words">{show.title}</h3>
+                      <h3 className="font-medium text-foreground font-pixel text-4xl uppercase whitespace-nowrap">{show.title}</h3>
                     </div>
                     {show.free && <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full whitespace-nowrap animate-pulse shrink-0">
                         GRATIS
