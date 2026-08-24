@@ -2,20 +2,20 @@ import { Helmet } from "react-helmet-async";
 
 const SEOSchema = () => {
   const shows: { date: string; name: string; url: string }[] = [
-    { date: "2026-09-17", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-09-24", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-10-01", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-10-08", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-10-15", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-10-22", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-10-29", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-11-05", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-11-12", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-11-19", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-11-26", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-12-03", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-12-10", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-12-17", name: "Guldgruvan Torsdags klubb", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" }
+    { date: "2026-09-17", name: "Guldgruvan 17 September 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-09-24", name: "Guldgruvan 24 September 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-10-01", name: "Guldgruvan 1 Oktober 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-10-08", name: "Guldgruvan 8 Oktober 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-10-15", name: "Guldgruvan 15 Oktober 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-10-22", name: "Guldgruvan 22 Oktober 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-10-29", name: "Guldgruvan 29 Oktober 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-11-05", name: "Guldgruvan 5 November 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-11-12", name: "Guldgruvan 12 November 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-11-19", name: "Guldgruvan 19 November 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-11-26", name: "Guldgruvan 26 November 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-12-03", name: "Guldgruvan 3 December 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-12-10", name: "Guldgruvan 10 December 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
+    { date: "2026-12-17", name: "Guldgruvan 17 December 2026", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" }
   ];
 
   const eventSchema = shows.map((show) => ({
