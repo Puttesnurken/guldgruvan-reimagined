@@ -124,15 +124,6 @@ const FindUs = () => {
           </div>
         </div>
 
-        {/* Parking Info */}
-        <div className="mt-12 max-w-6xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>
-          <div className="bg-card border border-border rounded-lg p-6 text-center">
-            <h4 className="font-medium text-foreground mb-2">Parkering</h4>
-            <p className="text-muted-foreground">
-              Det finns flera parkeringsgarage i närområdet. Närmast ligger Medborgarplatsen Parkering, ca 3 minuters promenad från klubben.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
