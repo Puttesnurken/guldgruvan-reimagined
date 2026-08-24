@@ -96,7 +96,7 @@ const FindUs = () => {
               <h4 className="font-medium text-foreground mb-3">Hitta hit</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Vi håller till på Sofia Common, Bondegatan 57 på Södermalm. Närmaste tunnelbanestation är Medborgarplatsen 
-                (Röda och Gröna linjen), ca 5 minuters promenad. Det finns även god tillgång till busshållplatser i närheten.
+                (Gröna linjen), ca 5 minuters promenad. Det finns även god tillgång till busshållplatser i närheten.
               </p>
             </div>
           </div>
