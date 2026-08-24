@@ -14,7 +14,8 @@ const UpcomingShows = () => {
   }[] = [
   {
     date: "17 September 2026",
-    time: "20:00",    title: "Guldgruvan 17 September 2026",
+    time: "20:00",
+    title: "Guldgruvan 17 September 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -22,7 +23,8 @@ const UpcomingShows = () => {
   },
   {
     date: "24 September 2026",
-    time: "20:00",    title: "Guldgruvan 24 September 2026",
+    time: "20:00",
+    title: "Guldgruvan 24 September 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -30,7 +32,8 @@ const UpcomingShows = () => {
   },
   {
     date: "1 Oktober 2026",
-    time: "20:00",    title: "Guldgruvan 1 Oktober 2026",
+    time: "20:00",
+    title: "Guldgruvan 1 Oktober 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -38,7 +41,8 @@ const UpcomingShows = () => {
   },
   {
     date: "8 Oktober 2026",
-    time: "20:00",    title: "Guldgruvan 8 Oktober 2026",
+    time: "20:00",
+    title: "Guldgruvan 8 Oktober 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -46,7 +50,8 @@ const UpcomingShows = () => {
   },
   {
     date: "15 Oktober 2026",
-    time: "20:00",    title: "Guldgruvan 15 Oktober 2026",
+    time: "20:00",
+    title: "Guldgruvan 15 Oktober 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -54,7 +59,8 @@ const UpcomingShows = () => {
   },
   {
     date: "22 Oktober 2026",
-    time: "20:00",    title: "Guldgruvan 22 Oktober 2026",
+    time: "20:00",
+    title: "Guldgruvan 22 Oktober 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -62,7 +68,8 @@ const UpcomingShows = () => {
   },
   {
     date: "29 Oktober 2026",
-    time: "20:00",    title: "Guldgruvan 29 Oktober 2026",
+    time: "20:00",
+    title: "Guldgruvan 29 Oktober 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -70,7 +77,8 @@ const UpcomingShows = () => {
   },
   {
     date: "5 November 2026",
-    time: "20:00",    title: "Guldgruvan 5 November 2026",
+    time: "20:00",
+    title: "Guldgruvan 5 November 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -78,7 +86,8 @@ const UpcomingShows = () => {
   },
   {
     date: "12 November 2026",
-    time: "20:00",    title: "Guldgruvan 12 November 2026",
+    time: "20:00",
+    title: "Guldgruvan 12 November 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -86,7 +95,8 @@ const UpcomingShows = () => {
   },
   {
     date: "19 November 2026",
-    time: "20:00",    title: "Guldgruvan 19 November 2026",
+    time: "20:00",
+    title: "Guldgruvan 19 November 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -94,7 +104,8 @@ const UpcomingShows = () => {
   },
   {
     date: "26 November 2026",
-    time: "20:00",    title: "Guldgruvan 26 November 2026",
+    time: "20:00",
+    title: "Guldgruvan 26 November 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -102,7 +113,8 @@ const UpcomingShows = () => {
   },
   {
     date: "3 December 2026",
-    time: "20:00",    title: "Guldgruvan 3 December 2026",
+    time: "20:00",
+    title: "Guldgruvan 3 December 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -110,7 +122,8 @@ const UpcomingShows = () => {
   },
   {
     date: "10 December 2026",
-    time: "20:00",    title: "Guldgruvan 10 December 2026",
+    time: "20:00",
+    title: "Guldgruvan 10 December 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
@@ -118,7 +131,8 @@ const UpcomingShows = () => {
   },
   {
     date: "17 December 2026",
-    time: "20:00",    title: "Guldgruvan 17 December 2026",
+    time: "20:00",
+    title: "Guldgruvan 17 December 2026",
     location: "Sofia Common, Bondegatan 57 · Gratis inträde",
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
