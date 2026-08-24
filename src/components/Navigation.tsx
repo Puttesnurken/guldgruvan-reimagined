@@ -82,14 +82,6 @@ const Navigation = () => {
             >
               FAQ
             </button>
-            <Button
-              asChild
-              className="bg-bw-gradient text-primary-foreground font-medium hover:shadow-glow transition-all"
-            >
-              <a href="https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633" target="_blank" rel="noopener noreferrer">
-                Biljetter
-              </a>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
