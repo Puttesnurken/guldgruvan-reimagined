@@ -13,13 +13,148 @@ const UpcomingShows = () => {
     free?: boolean;
   }[] = [
   {
-    date: "11 Juli 2026",
+    date: "17 September 2026",
     time: "20:00",
-    title: "SOMMAR-SPECIAL",
-    location: "Sofia Common, Bondegatan 57 · 150kr",
-    ticketUrl: "https://ticketmaster.se/artist/guldgruvan-standupklubb-biljetter/1241633",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
-    free: false,
+    free: true,
+  },
+  {
+    date: "24 September 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "1 Oktober 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "8 Oktober 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "15 Oktober 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "22 Oktober 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "29 Oktober 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "5 November 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "12 November 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "19 November 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "26 November 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "3 December 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "10 December 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "17 December 2026",
+    time: "20:00",
+    title: "TORSDAGS KLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "24 December 2026",
+    time: "20:00",
+    title: "JULAFTONSKLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
+  },
+  {
+    date: "31 December 2026",
+    time: "20:00",
+    title: "NYÅRSAFTONSKLUBB",
+    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
+    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
+    available: true,
+    free: true,
   },
   ];
   return <section id="shows" className="py-24 bg-background relative overflow-hidden">
@@ -45,7 +180,7 @@ const UpcomingShows = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto font-extralight text-4xl justify-items-center">
-          {shows.slice(0, showAll ? shows.length : 6).map((show, index) => <div key={index} className="animate-scale-in opacity-0" style={{
+          {shows.slice(0, showAll ? shows.length : 6).map((show, index) => <div key={index} className="animate-scale-in opacity-0 w-full" style={{
           animationDelay: `${0.2 + index * 0.1}s`,
           animationFillMode: "forwards"
         }}>
@@ -55,17 +190,17 @@ const UpcomingShows = () => {
                 {/* Header with date */}
                 <div className="bg-secondary/50 p-4 border-b border-border/50">
                   <div className="flex items-start justify-between gap-2">
-                    <div className="flex-1">
+                    <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 text-primary mb-1">
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium text-base font-fnaf">{show.date}</span>
                       </div>
-                      <h3 className="font-medium text-foreground font-pixel text-4xl uppercase">{show.title}</h3>
+                      <h3 className="font-medium text-foreground font-pixel text-4xl uppercase break-words">{show.title}</h3>
                     </div>
-                    {show.free && <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full whitespace-nowrap animate-pulse">
+                    {show.free && <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full whitespace-nowrap animate-pulse shrink-0">
                         GRATIS
                       </span>}
-                    {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-medium rounded-full whitespace-nowrap">
+                    {!show.available && <span className="px-2 py-1 bg-destructive/20 text-destructive text-xs font-medium rounded-full whitespace-nowrap shrink-0">
                         SLUTSÅLT
                       </span>}
                   </div>
