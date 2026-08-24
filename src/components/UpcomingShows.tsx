@@ -137,25 +137,7 @@ const UpcomingShows = () => {
     ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
     available: true,
     free: true,
-  },
-  {
-    date: "24 December 2026",
-    time: "20:00",
-    title: "JULAFTONSKLUBB",
-    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
-    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
-    available: true,
-    free: true,
-  },
-  {
-    date: "31 December 2026",
-    time: "20:00",
-    title: "NYÅRSAFTONSKLUBB",
-    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
-    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
-    available: true,
-    free: true,
-  },
+  }
   ];
   return <section id="shows" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative gradient overlays */}
