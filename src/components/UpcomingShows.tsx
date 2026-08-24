@@ -180,7 +180,7 @@ const UpcomingShows = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto font-extralight text-4xl justify-items-center">
-          {shows.slice(0, showAll ? shows.length : 6).map((show, index) => <div key={index} className="animate-scale-in opacity-0" style={{
+          {shows.slice(0, showAll ? shows.length : 6).map((show, index) => <div key={index} className="animate-scale-in opacity-0 w-full" style={{
           animationDelay: `${0.2 + index * 0.1}s`,
           animationFillMode: "forwards"
         }}>
