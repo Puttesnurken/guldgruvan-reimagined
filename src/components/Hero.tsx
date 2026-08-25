@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="mb-6 animate-fade-in">
           <img
-            src={logoAsset.url}
+            src={logoTransparent}
             alt="Guldgruvan Standupklubb"
             className="w-full max-w-4xl mx-auto h-auto"
           />
