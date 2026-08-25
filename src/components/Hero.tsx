@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import venue1 from "@/assets/venue-1.jpg";
 import venue2 from "@/assets/venue-2.jpg";
 import venue3 from "@/assets/venue-3.jpg";
+import logoAsset from "@/assets/logga-transparent-text-vit.png.asset.json";
 const heroImages = [venue1, venue2, venue3];
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
