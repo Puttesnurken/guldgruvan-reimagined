@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import venue1 from "@/assets/venue-1.jpg";
 import venue2 from "@/assets/venue-2.jpg";
 import venue3 from "@/assets/venue-3.jpg";
+import logoTransparent from "@/assets/logga-transparent-text-vit.png";
 const heroImages = [venue1, venue2, venue3];
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -26,10 +27,12 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading mb-6 animate-fade-in">
-          <span className="bg-bw-gradient bg-clip-text text-transparent mx-0 font-heading text-8xl md:text-9xl whitespace-nowrap">
-            GULDGRUVAN
-          </span>
+        <h1 className="mb-6 animate-fade-in">
+          <img
+            src={logoTransparent}
+            alt="Guldgruvan Standupklubb"
+            className="w-full max-w-4xl mx-auto h-auto"
+          />
         </h1>
         <p className="text-xl md:text-2xl text-foreground mb-4 max-w-3xl mx-auto animate-fade-in-up opacity-0 font-pixel uppercase" style={{
         animationDelay: "0.2s",
