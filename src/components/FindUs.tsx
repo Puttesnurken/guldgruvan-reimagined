@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone, Mail, Navigation } from "lucide-react";
+import { MapPin, Clock, Mail, Navigation } from "lucide-react";
 import { Button } from "./ui/button";
 
 const FindUs = () => {
@@ -55,18 +55,6 @@ const FindUs = () => {
                   </div>
                 </div>
 
-                {/* Phone */}
-                <div className="flex items-start gap-4 group">
-                  <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                    <Phone className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-foreground mb-1">Telefon</h4>
-                    <a href="tel:+46701234567" className="text-muted-foreground hover:text-primary transition-colors">
-                      +46 70 123 45 67
-                    </a>
-                  </div>
-                </div>
 
                 {/* Email */}
                 <div className="flex items-start gap-4 group">

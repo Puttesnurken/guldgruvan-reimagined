@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
-import { Mail, Phone, Calendar } from "lucide-react";
+import { Mail, Calendar } from "lucide-react";
 
 const BookEvent = () => {
   return (
@@ -58,12 +58,6 @@ const BookEvent = () => {
                     <Mail className="text-primary" size={20} />
                     <a href="mailto:booking@guldgruvan.se" className="hover:text-primary transition-colors">
                       booking@guldgruvan.se
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Phone className="text-primary" size={20} />
-                    <a href="tel:+46701234567" className="hover:text-primary transition-colors">
-                      070-123 45 67
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
