@@ -37,6 +37,12 @@ const Hero = () => {
       }}>
           Sveriges coolaste klubb
         </p>
+        <p className="inline-block bg-destructive text-destructive-foreground px-6 py-4 mb-8 text-2xl md:text-4xl font-pixel uppercase animate-fade-in-up opacity-0" style={{
+        animationDelay: "0.4s",
+        animationFillMode: "forwards"
+      }}>
+          Ingen show 26e november
+        </p>
         
         <div className="flex flex-col items-center gap-4 animate-fade-in-up opacity-0" style={{
         animationDelay: "0.6s",

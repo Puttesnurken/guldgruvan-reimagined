@@ -12,7 +12,6 @@ const SEOSchema = () => {
     { date: "2026-11-05", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
     { date: "2026-11-12", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
     { date: "2026-11-19", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
-    { date: "2026-11-26", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
     { date: "2026-12-03", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
     { date: "2026-12-10", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" },
     { date: "2026-12-17", name: "Guldgruvan", url: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633" }

@@ -103,15 +103,6 @@ const UpcomingShows = () => {
     free: true,
   },
   {
-    date: "26 November 2026",
-    time: "20:00",
-    title: "Guldgruvan",
-    location: "Sofia Common, Bondegatan 57 · Gratis inträde",
-    ticketUrl: "https://www.ticketmaster.se/artist/guldgruvan-comedyklubb-biljetter/1241633",
-    available: true,
-    free: true,
-  },
-  {
     date: "3 December 2026",
     time: "20:00",
     title: "Guldgruvan",
